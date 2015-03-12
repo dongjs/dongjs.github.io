@@ -1,0 +1,14 @@
+body {
+	text-align: center;
+	font-family: Consolas, monaco, monospace;
+}
+
+#header {
+	background: grey;
+	font-color: white;
+}
+
+#footer {
+	background: grey;
+	font-color: white;
+}
