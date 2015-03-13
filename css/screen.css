@@ -1,13 +1,14 @@
 html {
-	box-sizing: border-box;
 	max-width: 640 px;
 	margin: 0 auto;
 	position: relative;
 }
 
+/*
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+*/
 
 body {
 	text-align: justify;
