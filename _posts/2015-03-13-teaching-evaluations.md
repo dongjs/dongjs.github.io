@@ -1,3 +1,9 @@
+---
+layout: default
+title: Learning from Teaching Evaluations
+---
+
+
 Learning from Teaching Evaluations
 ==================================
 
