@@ -17,18 +17,18 @@ abstracted out from the subject matter of that course ("Shakespeare: Histories
 and Tragedies").
 
 - Don't undermine your own authority
-		My department assigns TF positions somewhat arbitrarily and I remarked in
+	* My department assigns TF positions somewhat arbitrarily and I remarked in
 		passing during section that I had less expertise in Shakespeare/theater than
 		in American Lit (my specialty). Bad idea!
 - Always deliver a takeaway
-		While conversation by and among *students* is the goal of section, they
+	* While conversation by and among *students* is the goal of section, they
 		still need to leave feeling as if they learned something. I always prepared
 		topics but needed to prioritize going over at least one of those topics,
 		rather than letting the discussion flow freely but with less structure.
 - Always return materials when you say you will
-		No excuse for this. Even a couple days matters.
+	* No excuse for this. Even a couple days matters.
 - Don't give differential effort
-		It's perhaps human nature to be more alert when being observed, but I am
+	* It's perhaps human nature to be more alert when being observed, but I am
 		striving to be the kind of teacher who gives the same high level of effort
 		in all situations.
 
