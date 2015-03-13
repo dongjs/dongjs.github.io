@@ -1,0 +1,18 @@
+---
+layout: default
+title: Stephen Krewson
+---
+
+<!--file needs ext .html, but inject content with Liquid-->
+{% include header.html %}
+
+<!--List everything in _posts-->
+<ul>
+{% for post in site.posts %}
+	<li>
+		{{ post.date }} | <a href="{{ post.url }}">{{ post.title }}</a>
+	</li>
+{% endfor %}
+</ul>
+
+{% include footer.html %}
