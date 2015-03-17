@@ -14,11 +14,15 @@ body {
 }
 
 .header {
+	width 90em;
+	margin: auto;
 	background: LightGray;
 	font-color: white;
 }
 
 .footer {
+	width: 90em;
+	margin: auto;
 	background: LightGray;
 	font-color: white;
 }
