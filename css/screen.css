@@ -10,19 +10,14 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-.content {
-	width: 80em;
-	margin: 20px auto;
+.content, .header, .footer {
+	max-width: 50em;
+	margin: auto 10%;
+	padding: 1em;
+	border-left: 1px solid LightGray;
+	border-right: 1px solid LightGray;
 }
 
-.header {
-	width: 90em;
-	margin: auto;
-	background: LightGray;
-}
-
-.footer {
-	width: 90em;
-	margin: auto;
+.header, .footer {
 	background: LightGray;
 }
