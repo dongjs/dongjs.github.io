@@ -8,17 +8,17 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-.content {
+.content .header .footer {
 	width: 80em;
-	margin: 20px auto;
+	margin: 20px 20em auto;
 }
 
-#header {
+.header {
 	background: LightGray;
 	font-color: white;
 }
 
-#footer {
+.footer {
 	background: LightGray;
 	font-color: white;
 }
