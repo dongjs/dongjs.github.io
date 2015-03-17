@@ -8,9 +8,9 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-.content .header .footer {
-	width: 80em;
-	margin: 20px 20em auto;
+.content {
+	max-width: 80em;
+	margin: 20px 10em;
 }
 
 .header {
