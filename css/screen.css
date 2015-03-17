@@ -9,8 +9,8 @@ body {
 }
 
 .content {
-	max-width: 80em;
-	margin: 20px 10em;
+	width: 80em;
+	margin: 20px auto;
 }
 
 .header {
