@@ -8,13 +8,11 @@ html {
 */
 
 body {
-	margin-left: 5%;
-	max-width: 800 px;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
 #content {
-	margin: 100;
+	left-margin: 10%;
 	max-width: 80em;
 }
 
