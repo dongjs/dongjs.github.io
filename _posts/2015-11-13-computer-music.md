@@ -7,14 +7,24 @@ I did a seminar with Connor Harris at Harvard a few days ago. Here's the [link](
 We talked about Haskell, Euterpea, and LilyPond.
 
 {% highlight lhaskell linenos %}
-A typical sequencer might have 16 steps. Here, we support slightly longer, two-bar beats.
+A typical sequencer might have 16 steps. Here, we support slightly longer,
+two-bar beats.
 
 > gN = 32
+
+The basic idea: generate some list of elements in the range [1..gN]. Given a
+list like this and a particular MIDI percussion sound p, stepSequence will
+trigger p at each timestep that is an element in the list.
 
 > stepSequence :: Maybe Volume -> Int -> [Int] -> Music (Pitch, Volume)
 > stepSequence _ _ [] = rest 0
 > stepSequence v p xs = addVolume v' $ line [if x `elem` xs then perc (toEnum p) qn else qnr | x <- [1..gN]]
 >	where v' = fromMaybe 75 v
+
+Now glue it all together with an infinite Music type. drumMachine will run
+forever. The list filtering and generation techniques are not elegant; rather
+they try to show the expressivity of list comprehension and function
+composition in Haskell.
 
 > drumMachine :: Music (Pitch, Volume)
 > drumMachine = let r = [1..gN]
