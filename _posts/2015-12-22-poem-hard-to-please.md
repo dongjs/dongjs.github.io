@@ -45,7 +45,7 @@ still by death, I drift through space
 as one not pleased, nor pleasing,  
 nor at rest.  
 
-*  
+*
 
 How has the space between us  
 grown this big? I'm starting to  
@@ -57,7 +57,7 @@ so small.
   
 Please, like anyone could fix it.  
 
-*  
+*
 
 Perpetual stuck-ness, perpetual motion,  
 it's known from certain laws of conservation  
@@ -65,7 +65,7 @@ it's known from certain laws of conservation
 that were I to achieve whichever  
 I'd still remain attracted to the other.  
 
-*  
+*
 
 Nothing is big and I really don't like it,  
 but a too small nothing can't fit my shit.  
