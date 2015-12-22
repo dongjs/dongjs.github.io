@@ -13,9 +13,7 @@ body {
 .content, .header, .footer {
 	max-width: 50em;
 	margin: auto 10%;
-	padding: 1em;
-	border-left: 1px solid LightGray;
-	border-right: 1px solid LightGray;
+	padding: 2em;
 }
 
 .header, .footer {
