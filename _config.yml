@@ -3,3 +3,5 @@ gems: [jemoji]
 
 # For syntax highlighting
 highlighter: pygments
+
+markdown: kramdown
