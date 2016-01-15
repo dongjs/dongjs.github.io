@@ -5,7 +5,7 @@ title: Carefully (poem)
 
 # Carefully
 
-> Generated using Twitter and the Google NLTK for XS Collaborative, April 2013
+> Generated using the Twitter API and Python NLTK for XS Collaborative, April 2013
   
 It seems like no matter how  
 carefully you choose your words,  
