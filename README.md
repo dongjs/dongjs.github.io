@@ -11,3 +11,7 @@ This site is modeled on Chris Olah's [blog](http://colah.github.io/). It uses:
 styling
 - [Highlight.js](https://highlightjs.org/usage/) for syntax highlighting of code
 snippets
+- The [Computer Modern](https://github.com/joehalliwell/joehalliwell.github.io/tree/master/res/cmun-serif)
+typeface, compiled by Joe Halliwell from the [Unicode fonts](http://cm-unicode.sourceforge.net/)
+created by Andrey V. Panov. For a history of Donald Knuth's work on Computer
+Modern in the early 1990s, see the [Wikipedia article](https://en.wikipedia.org/wiki/Computer_Modern). 
