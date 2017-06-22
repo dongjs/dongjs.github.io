@@ -5,3 +5,5 @@ gems: [jemoji]
 highlighter: pygments
 
 markdown: kramdown
+
+theme: jekyll-theme-cayman
