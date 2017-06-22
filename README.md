@@ -1,9 +1,14 @@
-# About me
+About me
+========
 
-I am a graduate student in English (PhD, 2019) and Computer Science (MS, 2018)
-at Yale University.
+I am a graduate student in [English](http://english.yale.edu/people/student/stephen-krewson)
+(PhD, 2019) and Computer Science (MS, 2018) at Yale University.
 
-# About this site
+I help run [CPSC 201](http://zoo.cs.yale.edu/classes/cs201/index.html),
+"Introduction to Computer Science." 
+
+About this site
+===============
 
 This site is modeled on Chris Olah's [blog](http://colah.github.io/). It uses:
 
@@ -14,4 +19,5 @@ snippets
 - The [Computer Modern](https://github.com/joehalliwell/joehalliwell.github.io/tree/master/res/cmun-serif)
 typeface, compiled by Joe Halliwell from the [Unicode fonts](http://cm-unicode.sourceforge.net/)
 created by Andrey V. Panov. For a history of Donald Knuth's work on Computer
-Modern in the early 1990s, see the [Wikipedia article](https://en.wikipedia.org/wiki/Computer_Modern). 
+Modern in the early 1990s, see the [Wikipedia article](https://en.wikipedia.org/wiki/Computer_Modern).
+- Hakyll (coming soon)
