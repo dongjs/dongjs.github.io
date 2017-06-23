@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}"
+
+// See: https://lastmover.wordpress.com/2017/01/01/github-pages/
+// https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/
+
+.page-header {
+	background-image: url("../img/header.png");
+	background-color: #0f4d92;
+}
