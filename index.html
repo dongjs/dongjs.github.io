@@ -6,20 +6,22 @@ title: Stephen Krewson | Homepage
 <!--file needs ext .html, but inject content with Liquid-->
 <!--List everything in _posts-->
 
-Welcome to my site! 
+<h2>Welcome!</h2>
+I am a graduate student in English (PhD, 2019) and Computer Science (MS, 2018) at Yale University. This site contains my blog (mostly defunct) and live drafts of my current research projects. Feel free to write me at firstname dot lastname at yale dot edu.
 
 <h2>Research</h2>
 <ul>
 {% for article in site.articles %}
 	<li>
-		<a href="{{ post.url }}">{{ post.title }}</a>
+		<a href="{{ article.url }}">{{ article.title }}</a>
 	</li>
 {% endfor %}
 </ul>
 
 
 <h2>Demos</h2>
-Written in React.
+<p>Written in React.</p>
+<br>
 <ul>
 	<li>
 		<a href="portfolio/">Portfolio</a> (under construction)
