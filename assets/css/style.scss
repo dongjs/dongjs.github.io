@@ -10,12 +10,13 @@
 .page-header {
 	font-family: "Computer Modern Bright";
 	background-color: #0f4d92;
+	/* bit of a hack, since theme has default image */
 	background-image: linear-gradient(to bottom, #0f4d92, #0f4d92);
 }
 
 .main-content {
 	font-family: "Computer Modern Serif";
-
+	/* see: https://lastmover.wordpress.com/2017/01/01/github-pages/ */
 	h1,h2,h3,h4,h5,h6 {
 		color: #2f4f4f;
 	}
