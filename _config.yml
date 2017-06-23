@@ -1,2 +1,7 @@
+#: See https://github.com/pages-themes/cayman#usage
 theme: jekyll-theme-cayman
+title: "Stephen Krewson"
+description: "19C Literature, Computer Vision, Arts et Métiers"
+
+# Old stuff: make sure footnote support still works?
 markdown: kramdown
