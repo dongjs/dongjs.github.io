@@ -11,4 +11,3 @@ collections:
   articles:
     layout: article
     output: true
-    permalink: pretty
