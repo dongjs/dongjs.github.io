@@ -1,19 +1,8 @@
 ---
 ---
 
-// change SASS variables above the import
-// https://github.com/pages-themes/cayman/blob/master/_sass/variables.scss
-
-// Dislike the green header links
-$section-headings-color: #000000;
-
-
 @import "{{ site.theme }}";
 
-// See: https://lastmover.wordpress.com/2017/01/01/github-pages/
-// https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/
-
-// See: https://www.checkmyworking.com/cm-web-fonts/
 @import url("../fonts/Computer-Modern/Serif/cmun-serif.css");
 @import url("../fonts/Computer-Modern/Bright/cmun-bright.css");
 
@@ -21,8 +10,13 @@ $section-headings-color: #000000;
 .page-header {
 	font-family: "Computer Modern Bright";
 	background-color: #0f4d92;
+	background-image: linear-gradient(to bottom, #0f4d92, #0f4d92);
 }
 
 .main-content {
 	font-family: "Computer Modern Serif";
+
+	h1,h2,h3,h4,h5,h6 {
+		color: #2f4f4f;
+	}
 }
