@@ -6,6 +6,10 @@ description: "19C Literature, Computer Vision, Arts et Métiers"
 github: metadata
 markdown: kramdown
 
+# support emoji
+gems:
+  - jemoji
+
 # https://jekyllrb.com/docs/collections/
 collections:
   articles:
