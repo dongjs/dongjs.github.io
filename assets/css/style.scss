@@ -4,6 +4,10 @@
 // change SASS variables above the import
 // https://github.com/pages-themes/cayman/blob/master/_sass/variables.scss
 
+// Dislike the green header links
+$section-headings-color: #000;
+
+
 @import "{{ site.theme }}";
 
 // See: https://lastmover.wordpress.com/2017/01/01/github-pages/
@@ -16,7 +20,6 @@
 
 .page-header {
 	font-family: "Computer Modern Bright";
-	background-image: linear-gradient(to bottom, #0f4d92, #80CCCC);
 	background-color: #0f4d92;
 }
 
