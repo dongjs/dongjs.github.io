@@ -6,27 +6,7 @@
 // See: https://lastmover.wordpress.com/2017/01/01/github-pages/
 // https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/
 
-// See: https://github.com/spratt/Computer-Modern
-@font-face {
-  font-family: "Computer Modern";
-  src: url('http://spratt.github.io/Computer-Modern/cmunss.otf');
-}
-@font-face {
-  font-family: "Computer Modern";
-  src: url('http://spratt.github.io/Computer-Modern/cmunsx.otf');
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Computer Modern";
-  src: url('http://spratt.github.io/Computer-Modern/cmunsi.otf');
-  font-style: italic, oblique;
-}
-@font-face {
-  font-family: "Computer Modern";
-  src: url('http://spratt.github.io/Computer-Modern/cmunbxo.otf');
-  font-weight: bold;
-  font-style: italic, oblique;
-}
+@import url("../fonts/Computer-Modern/Serif/cmun-serif.css");
 
 .page-header {
 	font-family: "Computer Modern", serif;
