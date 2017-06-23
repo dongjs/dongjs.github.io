@@ -1,9 +1,7 @@
 ---
-layout: default
-title: Carefully (poem)
+layout: post
+title: Carefully
 ---
-
-# Carefully
 
 > Generated using the Twitter API and Python NLTK for XS Collaborative, April 2013
   

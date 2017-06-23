@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: post
 title: Learning from Teaching Evaluations
 ---
+
 Due to an application for another teaching fellow (TF) position, I had occasion
 to go back and look at my evaluations from TF-ing in the fall. They were
 positive but contained some well-deserved suggestions for improvement. No lie,

@@ -1,9 +1,7 @@
 ---
-layout: default
-title: Hard to Please (poem)
+layout: post
+title: Hard to Please
 ---
-
-# Hard to Please
 
 > i don't like how big space is but i would also  
 > not like it if space were small. there is just  
@@ -15,7 +13,6 @@ title: Hard to Please (poem)
 > no pleasing me.  
 > --@[shutupmikeginn](https://twitter.com/shutupmikeginn/status/523625612754563072)  
 
-*
     
 I do not like how big  
 space is.  
