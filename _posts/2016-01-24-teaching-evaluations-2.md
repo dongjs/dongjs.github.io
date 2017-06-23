@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Learning from Teaching Evaluations 2
 ---
 
