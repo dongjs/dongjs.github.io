@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Learning from Teaching Evaluations
 ---
 Due to an application for another teaching fellow (TF) position, I had occasion

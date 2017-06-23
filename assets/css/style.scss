@@ -1,11 +1,15 @@
 ---
 ---
 
+// change SASS variables above the import
+// https://github.com/pages-themes/cayman/blob/master/_sass/variables.scss
+
 @import "{{ site.theme }}";
 
 // See: https://lastmover.wordpress.com/2017/01/01/github-pages/
 // https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/
 
+// See: https://www.checkmyworking.com/cm-web-fonts/
 @import url("../fonts/Computer-Modern/Serif/cmun-serif.css");
 @import url("../fonts/Computer-Modern/Bright/cmun-bright.css");
 

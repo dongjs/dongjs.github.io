@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Computer Music Drum Machine
 ---
 I did a seminar with Connor Harris at Harvard a few days ago. Here's the [link](https://manual.cs50.net/seminars/).

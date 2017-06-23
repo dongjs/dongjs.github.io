@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: My Combinatorics Workflow
 ---
 How many paths are there through an *m x n* matrix, M? Suppose we can only move up and to the right. From (0, 0) to, say, (100, 70) there are an incredible number of paths. What if we add the restriction that you are NOT allowed to pass through point (60, 50)?
