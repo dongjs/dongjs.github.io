@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Learning from Teaching Evaluations 2
 ---
 
