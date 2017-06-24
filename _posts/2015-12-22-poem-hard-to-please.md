@@ -60,12 +60,4 @@ Perpetual stuck-ness, perpetual motion,
 it's known from certain laws of conservation  
   
 that were I to achieve whichever  
-I'd still remain attracted to the other.  
-
-*
-
-Nothing is big and I really don't like it,  
-but a too small nothing can't fit my shit.  
-  
-Scared to die but afraid to go on,  
-hope we all get pleased in the next one.  
+I'd still remain attracted to the other.
