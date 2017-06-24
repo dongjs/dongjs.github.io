@@ -14,7 +14,7 @@ This is the introduction to my dissertation. Here is a picture:
 
 ![Method of telling about geography](img/parley-geography.jpg)
 
-And here is a footnote. [^0] Here is a citation. 
+And here is a footnote.[^0] Here is a citation. 
 
 
 <!-- kramdown will do notes in order of appearance; anchors are arbitrary -->
