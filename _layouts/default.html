@@ -18,7 +18,10 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <!-- Make my name a link back to homepage -->
+      <h1 class="project-name"><a href="{{ site.url }}" class="btn">{{ site.title | default: site.github.repository_name }}</a></h1>
+      <!-- end of modifications to title -->
+
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
