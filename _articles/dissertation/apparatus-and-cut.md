@@ -12,11 +12,13 @@ Introduction
 
 This is the introduction to my dissertation. Here is a picture:
 
-![Method of telling about geography](img/parley-geography.jpg "Caption.")
+![Method of telling about geography](img/parley-geography.jpg)
 
-And here is a footnote [^0].
+And here is a footnote. [^0] Here is a citation. 
 
 
-<!-- REFERENCES (kramdown will do notes in order of appearance) -->
+<!-- kramdown will do notes in order of appearance; anchors are arbitrary -->
+References
+----------
 
 [^0]: Try to avoid footnotes that have multiple paragraphs.
