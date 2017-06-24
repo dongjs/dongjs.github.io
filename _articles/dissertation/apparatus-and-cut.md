@@ -18,6 +18,7 @@ And here is a footnote. [^0] Here is a citation.
 
 
 <!-- kramdown will do notes in order of appearance; anchors are arbitrary -->
+
 References
 ----------
 
