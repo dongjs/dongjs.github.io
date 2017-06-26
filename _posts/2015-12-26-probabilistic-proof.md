@@ -39,6 +39,6 @@ $$\leq k \cdot n^{-2}$$
 
 $$\leq {k \over{n^{2}}}$$
 
-Since we defined the coloring to be at most the size of the vertex set of $$G$$ ($$k \leq n$$), then $$k\over{n^{2}}$$ is less than 1! So $$\displaystyle\sum_{v \in V(G)} P(A_v) < 1$$. And there is a non-zero probability that the coloring sketched out in Step 2 exists. And thus $$G$$ contains a directed cycle that is divisible by $$k$$!
+Since we defined the coloring to be at most the size of the vertex set of $$G$$ ($$k \leq n$$), then $$k\over{n^{2}}$$ is less than 1! So $$\displaystyle\sum_{v \in V(G)} P(A_v) < 1$$. And there is a non-zero probability that the coloring sketched out in Step 2 exists.
 
-And we're done! :eyeglasses:
+Thus $$G$$ contains a directed cycle that is divisible by $$k$$. And we're done! :eyeglasses:
