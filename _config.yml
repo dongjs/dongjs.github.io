@@ -10,8 +10,9 @@ markdown: kramdown
 gems:
   - jemoji
 
-# https://jekyllrb.com/docs/collections/
+# https://jekyllrb.com/docs/collections/ (TODO: poems, music?)
 collections:
+
   articles:
     layout: article
     output: true

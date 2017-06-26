@@ -1,0 +1,9 @@
+<!-- just display a loop -->
+<h2>Research</h2>
+<ul>
+{% for article in site.articles %}
+	<li>
+		<a href="{{ article.url }}">{{ article.title }}</a> ({{ article.keywords | join: ", "}})
+	</li>
+{% endfor %}
+</ul>
