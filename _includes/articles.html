@@ -1,13 +1,13 @@
 <!-- just display a loop -->
 <h2>Research</h2>
 
-<p>Because Jekyll and kramdown do not support citations (at least not natively),
+Because Jekyll and kramdown do not support citations (at least not natively),
 my research articles are written in Pandoc markdown and built with a very simple
 shell script. Before pushing to GitHub, I refresh my Zotero bibliography, export
 it to `/assets/bib/references.bib` and then run `/scripts/article-md-to-html.sh`.
 The various Pandoc extensions are invoked within this script. As works-in-
 progress, the articles are unstyled (expect with some minimal CSS to keep image
-sizes reasonable.</p>
+sizes reasonable.
 
 <ul>
 {% for article in site.articles %}
