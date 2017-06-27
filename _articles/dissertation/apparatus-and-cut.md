@@ -4,11 +4,22 @@ title: "The Apparatus and the Cut: Visualizing the Mechanics of 19C Children's L
 author: Stephen Krewson
 bibliography: "../../assets/bib/references.bib"
 link-citations: true
-keywords: ["Children's Literature", "History of Science", "Book History"]
+keywords: ["Children's Literature", "History of Science", "Book History", "Education"]
 ---
 
-Introduction
-------------
+Sets and Sites
+--------------
+
+
+
+* Apparatus
+* Cut
+* School
+* Home
+* Lyceum
+
+
+
 
 This is the introduction to my dissertation. Here is a picture:
 
