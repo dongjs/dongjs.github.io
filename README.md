@@ -12,7 +12,7 @@ In building the site, I was revisiting my own efforts (circa 2015) but with a be
 
 While I admire Chris Olah's blog very much, using Haskell's Stack and Hakyll with the Windows subsystem for Linux (WSL) is not workable yet. Even installing Ruby was unexpectedly complex, as `rbenv` does not work.
 
-For excellent explanations of how to use a plaintext workflow, see Nicholas Cifuentes-Goodbody's YouTube channel and this article by Dennis Tenen and 
+For excellent explanations of how to use a plaintext workflow, see Nicholas Cifuentes-Goodbody's [YouTube channel] and [this article] by Dennis Tenen and Grant Wythoff.
 
 
 Tools
@@ -70,5 +70,5 @@ Site
 [Cayman theme]: https://github.com/pages-themes/cayman 
 [Pandoc markdown]: http://pandoc.org/MANUAL.html#pandocs-markdown
 [pandoc-citeproc]: https://hackage.haskell.org/package/pandoc-citeproc
-
-http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+[YouTube channel]: https://www.youtube.com/channel/UCYspUZGexLdDLjHRkuERQlg/featured
+[this article]: http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
