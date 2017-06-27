@@ -12,6 +12,8 @@ echo "Converting $1 to $name.html . . ."
 
 # Build with Pandoc because Kramdown doesn't support image captions and citation
 # ALSO: we want the flexibility to keep private or render to MS Word
-pandoc -o "$name.html" $1
+
+# For extensions, see: http://pandoc.org/MANUAL.html#pandocs-markdown
+pandoc -o "$name.html" -f markdown+implicit_figures+yaml_metadata_block -s $1
 
 echo "Done!"
