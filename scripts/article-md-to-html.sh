@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# TODO: convert this build script so that it generates ALL markdown files
+# within _articles
+
 # Ensure a file is given as an argument
 if [ "$#" -ne 1 ] || ! [ -f "$1" ]; then
   echo "Usage: $0 MARKDOWN_FILE" >&2
