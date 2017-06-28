@@ -1,9 +1,6 @@
 ---
-layout: "article"
 title: "The Apparatus and the Cut: Visualizing the Mechanics of 19C Children's Literature"
 author: Stephen Krewson
-bibliography: "../../assets/bib/references.bib"
-csl: "../../assets/bib/modern-language-association-8th-edition.csl"
 link-citations: true
 keywords: ["Children's Literature", "History of Science", "Book History", "Education"]
 ---
