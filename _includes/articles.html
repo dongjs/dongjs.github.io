@@ -4,6 +4,8 @@
 {% for article in site.articles %}
 	<li>
 		<a href="{{ article.url }}">{{ article.title }}</a> ({{ article.keywords | join: ", "}})
+		{% assign name = article.url | remove: ".html" %}
+		[<a href="{{ name }}.pdf">pdf</a>, <a href="{{ name }}.docx">docx</a>]
 	</li>
 {% endfor %}
 </ul>
