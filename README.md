@@ -62,6 +62,7 @@ Research
 
 Site
 ----
+* ~~Add PDF and DOCX links for all articles~~
 * Abstract poetry into "poems" Jekyll collection
 * Style research articles using SASS from gh-pages themes (low priority)
 * ~~Make header button link to first heading of README~~
