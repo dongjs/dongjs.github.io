@@ -20,3 +20,4 @@ echo "Converting $1 to $name.html..."
 pandoc --toc --css="/assets/css/pandoc.css" --filter pandoc-citeproc -o "$name.html" -f markdown+citations+implicit_figures+inline_notes+yaml_metadata_block -s $1
 
 echo "Done!"
+
