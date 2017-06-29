@@ -23,7 +23,7 @@ in the hook means, truly, capitalism!
 Thirdly, I get desperation and  
 next I hear what seems to me to be  
 
-in the hook a Minstrel capitalism!  
+in the hook a minstrel capitalism!  
 Quiet longing for what should have been.  
 Next I hear what seems to me to be  
 (but what could never have been  
