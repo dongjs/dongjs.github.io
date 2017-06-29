@@ -16,3 +16,7 @@ collections:
   articles:
     layout: article
     output: true
+
+  poems:
+    layout: poem
+    output: true

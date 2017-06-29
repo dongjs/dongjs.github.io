@@ -1,0 +1,9 @@
+<!-- a simple loop through all the poems, with year of first composition -->
+<h2>Poems</h2>
+<ul>
+{% for poem in site.poems %}
+	<li>
+		<a href="{{ poem.url }}">{{ poem.title }}</a> ({{ poem.year }})
+	</li>
+{% endfor %}
+</ul>
