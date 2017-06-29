@@ -19,11 +19,11 @@ This second time I get anger based
 thirdly in desperation and  
 
 in pride. Yet tradition  
-in the Hook means, truly, capitalism!  
+in the hook means, truly, capitalism!  
 Thirdly, I get desperation and  
 next I hear what seems to me to be  
 
-in the Hook a Minstrel capitalism!  
+in the hook a Minstrel capitalism!  
 Quiet longing for what should have been.  
 Next I hear what seems to me to be  
 (but what could never have been  
@@ -33,13 +33,13 @@ abased by lies of society and
 what could never have but been.   
 Finally, I hear and feel acceptance,  
 
-based on the lies of society.  
-And in that last string---    
-a final heard and felt acceptance,  
+based on the lies of society  
+at its last strings.    
+A final heard and felt acceptance,  
 a parting with the fabric of what these men held  
 
-in that last string so   
-close yet let go of.  
+in that last string---   
+so close yet let go of.  
 Parting the fabric of what these men held  
 to gain what they feel they needed,   
 
