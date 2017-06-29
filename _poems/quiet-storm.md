@@ -34,7 +34,7 @@ what could never have but been.
 Finally, I hear and feel acceptance,  
 
 based on the lies of society  
-in its last strings.    
+at its last strings.    
 A final heard and felt acceptance,  
 a parting with the fabric of what these men held  
 
