@@ -10,7 +10,7 @@ year: 2014
 
 This Rap shows me many things.  
 Hurt is the first feeling I get,   
-dedicated through the simple melodic tones.  
+dedicated through simple melodic tones.  
 Second, I get anger based  
 
 in hurt. Is the first feeling I get  
