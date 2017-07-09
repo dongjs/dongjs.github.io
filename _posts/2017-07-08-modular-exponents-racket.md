@@ -10,9 +10,12 @@ Come August, I'll be back as the TF for [CS201](http://zoo.cs.yale.edu/classes/c
 * Exponents: $$x^n$$
 * Taking exponents modulo some number: $$x^n \mod p$$
 
-The constraint is that both functions must run in $$O(\log n)$$ time. Right away, this suggests that we can solve both problems with the same basic approach. Let's start with the first one, then use some modular arithmetic to adapt for the second operation.
+The constraint is that both functions must run in $$O(\log n)$$ time. When I refer to $$\log$$ in this post, I mean $$log_2$$. It's cleaner to write it without an explicit base! Right away, this suggests that we can solve both problems with the same basic approach. Let's start with the first one, then use some modular arithmetic to adapt for the second operation.
 
-In Racket, the purely recursive solution for $$x^n$$ is elegant; however, it runs in linear time (there are $$n$$ multiplications).
+
+Exponents
+---------
+In Lisp-based languages, the purely recursive solution for $$x^n$$ is elegant; however, it runs in linear time (there are $$n$$ multiplications).
 
 {% highlight racket linenos %}
 
@@ -43,7 +46,7 @@ One way to improve on the memory demands of `power1` is to make it tail-recursiv
 
 Can we do even better?
 
-Think about an expression like $$3^4$$. We could rewrite this as $$3^2 \times 3^2$$, using the identity $$a^b = a^{b/2} \times a^{b/2}$$. Recursively, $$b/2$$ will become the new $$b$$ and we will continue until $$b = 0$$. This will take $$\log_2 b$$ steps.
+Think about an expression like $$3^4$$. We could rewrite this as $$3^2 \times 3^2$$, using the identity $$a^b = a^{b/2}a^{b/2}$$. Recursively, $$b/2$$ will become the new $$b$$ and we will continue until $$b = 0$$. This will take $$\log b$$ steps.
 
 {% highlight racket linenos %}
 
@@ -59,15 +62,33 @@ Think about an expression like $$3^4$$. We could rewrite this as $$3^2 \times 3^
 
 {% endhighlight %}
 
-Why does this work? Notice that `base` is multiplied with itself at each level of the recursion. We have already shown that there will be $$\log_2 exp$$ levels, since we are repeatedly dividing `exp` by two and then truncating (incidentally, this is why we need to use `quotient` and not `/`). We can represent the successive squarings of `base` by using $$2$$ raised to the power $$\log_2 exp$$. Since the original root is `base`, we then have:  
+Why does this work? Notice that `base` is multiplied with its current value at each level of the recursion. This squared value becomes the new base. We have already shown that there will be $$\log exp$$ levels, since we are repeatedly dividing `exp` by two and then truncating (incidentally, this is why we need to use `quotient` and not `/`). We can represent the successive squarings of `base` by writing $$2$$ raised to the power $$\log exp$$. Since the original root is `base`, we then have:  
 
 $$base^{2^{\log_2 exp}} = base^{exp}$$
 
-This is because $$a^{\log_a x} = x$$ by definition of what a logarithm is. So we can be satisfied that the updates to `base` in the recursive calls are correct and will yield an answer of the right magnitude. But what about `result` and the `odd?` predicate?
+This is because $$a^{\log_a x} = x$$ from the definition of what a logarithm is (i.e. the undoing of exponentiation). So we can be satisfied that the updates to `base` in the recursive calls are correct and will yield an answer of the right magnitude. But what about `result` and the `odd?` predicate?
 
-Notice that in my example above of $$3^4$$ decomposing into two halves of $$3^2$$, everything is nice and even and symmetrical. But what about $$3^5$$? It's easier to consider the case $$3^1$$. In fact, as we divide `exp` by two, the final two values of `exp` will inevitably be $$1$$ and $$0$$. You can verify this for yourself by checking the odd and even cases. When `exp` equals one, we can think of there being an extra `base` hanging around that needs to be incorporated into the result of the exponentiation.
+Notice that in my example of $$3^4$$ decomposing into two halves of $$3^2$$, everything is nice and symmetrical. But what about $$3^5$$ or $$3^{13}$$? It's easier to consider the case $$3^1$$. In fact, as we divide `exp` by two, the final two values of `exp` will inevitably be $$1$$ and $$0$$. You can verify this for yourself by checking the odd and even cases. When `exp` equals one, we can think of there being an extra `base` factor hanging around that needs to be incorporated into the result of the exponentiation.
 
-Put another way, the number of times that the `odd?` predicate will evaluate to true is a measure of how far `exp` is from being a power of 2 (in which case we can imagine a perfectly balanced binary tree being combined into the solution: the leaves have the value `base` and these join with their siblings to become $$base^2$$ and in turn $$base^4$$ and $$base^8$$ and so on). But to evaluate something like $$3^7$$, there are three extra `base`'s hanging around since seven is not quite $$2^3 = 8$$.  
+Put more generally, the number of times that the `odd?` predicate will evaluate to true is a measure of how far `exp` is from being a power of 2 (in which case we could imagine a perfectly balanced binary tree being combined into the solution: the leaves have the value `base` and these join with their siblings to become $$base^2$$ and in turn $$base^4$$ and $$base^8$$ and so on). But to evaluate something like $$3^7$$, there are three extra `base` factors hanging around since seven is not quite $$2^3 = 8$$. The values of the arguments throughout the expression are:
+
+
+`depth` | `exp` | `odd?` | `base` | `result`
+--- | --- | --- | --- | ---
+0 | 7 | `true` | 3 | 1
+1 | 3 | `true` | 9 | 3
+2 | 1 | `true` | 81 | 27
+3 | 0 | `false` | 6561 | 2187
+
+At the top level (`depth` = 0), we have an odd exponent, so we need to update `result` so that at the next call (`depth` = 1) the "missing" factor is accounted for (again, by "missing" I mean "distance from being a perfect power of 2"). How many factors we are missing scales with $$2^{depth}$$ since this is a doubling algorithm. Thus, we pick up $$2^{1} = 2$$ of the three missing 3's when we are at `depth` 1 and `odd?` is `true`. The exact same insight would apply to $$3^1023$$ or any base raised to an arbitrarily large odd exponent: since ` base` can only take on values of the form $$base^{2^depth}$$, whenever `exp` is odd, we need to pick up $$2^{depth}$$ of the missing original `base` factors.
+
+
+Modular exponents
+-----------------
+Now let's consider ...
+
+
+
 
 http://www.math.nyu.edu/faculty/hausner/congruence.pdf
 
