@@ -118,28 +118,36 @@ For me, it wasn't immediately obvious that this relation should hold for any val
 $$5 \times 5 \ldots \times 5 \pmod 3 = x\\
 2 \times 2 \ldots \times 2 \pmod 3 = x$$
 
-As we hold $$p = 3$$ constant, we can pile up $$n$$ 5's on the top row and $$n$$ 2's on the bottom row and they will always have the same answer modulo 3. Adding an $$(n+1)$$-th 5 and 2, respectively, will preserve the congruence. We can get the induction going by considering the base case:
+As we hold $$p = 3$$ constant, we can pile up $$n$$ 5's on the top row and $$n$$ 2's on the bottom row and they will always have the same answer modulo 3. Adding an $$(n+1)$$-th 5 and 2, respectively, will preserve the congruence. We can get the induction going by considering the base case for our example:
 
 $$5^1 \equiv 2^1 \pmod 3$$
 
 This follows immediately from the definition of the modulo operation. Clearly, $$a$$ "wraps around" $$p$$ the same distance that $$a \pmod p$$ does. Put another way, the remainder of $$a / p$$ is congruent (modulo $$p$$) to $$a$$ itself, since this remainder is what defines the value of $$a \pmod p$$ in the first place.
 
-Next we introduce one of the fundamental identities of modular arithmetic:
-
-$$(a \pmod p)(b \pmod p) \equiv (ab \pmod p) \pmod p$$
-
-Basically, after having proved the base case $$n = 1$$, we want to show that adding a factor preserves the congruency. The statement $$a^n \equiv b^n \pmod p$$ is the inductive hypothesis.
+Basically, after having proved the base case $$n = 1$$, we want to show that adding a factor preserves the congruency. The statement $$a^n \equiv b^n \pmod p$$ is the inductive hypothesis. Having assigned $$b := a \pmod p$$ we claim that:
 
 $$\begin{align}
 
-b &:= a \pmod p\\
 a &\equiv b \pmod p\\
 a^n &\equiv b^n \pmod p\\
 a^{n+1} &\equiv b^{n+1} \pmod p
 
 \end{align}$$
 
+
+
+
+
+
+
 Let's simplify our notation and group together what we know.
+Next we introduce one of the fundamental identities of modular arithmetic:
+
+$$(a \pmod p)(b \pmod p) \equiv (ab \pmod p) \pmod p$$
+
+
+
+
 
 
 {% highlight racket linenos %}
