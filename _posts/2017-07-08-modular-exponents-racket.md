@@ -141,11 +141,11 @@ a^n &\equiv b^n \pmod p\\
 a^{n+1} &\equiv b^{n+1} \pmod p
 \end{align}$$
 
-Let's switch up our notation slightly so that we don't need to work with exponents. We can set $$x := a^n$$ and $$y := b^n$$ (remember that this is for some arbitary value of $$n \in \mathbb{N}$$). Now we just need to prove that it follows that $$ax \equiv by \pmod p$$. Using our updated notation, we will show that the congruences can be multiplied (much like two equalities). In fact, the proof involves briefly moving out of the congruence notation and into that of equalities. Consider that if $$a \equiv b \pmod p$$ then $$b$$ can be expressed as the sum of $$a$$ and some multiple of $$p$$:
+Let's switch up our notation slightly so that we don't need to work with exponents. We can set $$x := a^n$$ and $$y := b^n$$ (remember that this is for some arbitary exponent $$n \in \mathbb{Z}$$). Now we prove that $$ax \equiv by \pmod p$$. Using our updated notation, we will show that the congruences can be multiplied (much like two equalities). In fact, the proof involves briefly moving out of the congruence notation and into that of equalities. Consider that if $$a \equiv b \pmod p$$ then $$b$$ can be expressed as the sum of $$a$$ and some multiple of $$p$$:
 
 $$b = a + pc | c \in \mathbb{Z}$$
 
-We keep it simple by also only using integers (the set $$\mathbb{Z}) for all bases, exponents, and values of $$p$$. The intuition is that $$a$$ and $$b$$ remain the same number of "spots" from all the multiples of $$p$$ on the number line. We can express both the following congruences in this new form:
+Note that I have only been using integers (the set $$\mathbb{Z}$$) for all bases, exponents, and values of $$p$$. The intuition is that $$a$$ and $$b$$ remain the same number of "spots" from all the multiples of $$p$$ on the number line. We can express both the following congruences in this new form:
 
 $$\begin{align}
 a &\equiv b \pmod p\\
@@ -161,7 +161,7 @@ by &= (a + pc_1)(x + pc_2)\\
 by &= ax + apc_2 + xpc_1 + p^2c_1c_2\\
 by &= ax + p(ac_2 + xc_1 + pc_1c_2)\\
 c_3 &:= (ac_2 + xc_1 + pc_1c_2)\\
-by &= ax + pc_3 | c_3 \in mathbb{Z}\\
+by &= ax + pc_3 | c_3 \in \mathbb{Z}\\
 by &\equiv ax \pmod p
 \end{align}$$
 
