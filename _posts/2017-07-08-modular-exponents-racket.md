@@ -5,17 +5,26 @@ title: Modular Exponents in Racket
 
 DRAFT
 
-Come August, I'll be back as the TF for [CS201](http://zoo.cs.yale.edu/classes/cs201/index.html), which is taught in Racket. As a way of refreshing my FP memory, I want to implement efficient algorithms for:
+Come August, I'll be back as the TF for [CS201](http://zoo.cs.yale.edu/classes/cs201/index.html), which is taught in Racket. As a way of refreshing my functional programming (FP) memory, I want to implement efficient algorithms for:
 
-* Exponents: $$x^n$$
+* Raising a base to a power: $$x^n$$
 * Taking exponents modulo some number: $$x^n \mod p$$
 
-The constraint is that both functions must run in $$O(\log n)$$ time. When I refer to $$\log$$ in this post, I mean $$log_2$$. It's cleaner to write it without an explicit base! Right away, this suggests that we can solve both problems with the same basic approach. Let's start with the first one, then use some modular arithmetic to adapt for the second operation.
+The constraint is that both functions must run in $$O(\log n)$$ time (whenever I refer to $$\log$$ in this post, I mean $$log_2$$). The identical time complexities hint that we can solve both problems with the same basic approach.
+
+Along the way, I want to introduce some practical tips:
+
+* how to write clean Racket code
+* how to convert a function to tail-recursive form
+* how to sketch an inductive proof
+* how to look up the source code for built-in functions such as `expt`
+* how to profile your own code
+* how to consult reference works to check the efficiency of your algorithm
 
 
 Exponents
 ---------
-In Lisp-based languages, the purely recursive solution for $$x^n$$ is elegant; however, it runs in linear time (there are $$n$$ multiplications).
+In Lisp-based languages, the purely recursive solution to $$x^n$$ is elegant; however, it runs in linear time (there are $$n$$ multiplications).
 
 {% highlight racket linenos %}
 
@@ -27,7 +36,7 @@ In Lisp-based languages, the purely recursive solution for $$x^n$$ is elegant; h
 
 {% endhighlight %}
 
-One way to improve on the memory demands of `power1` is to make it tail-recursive, so that the the multiplication operation does not have to wait around for the results of the recursive call to bubble back up. We can keep the canonical signature in a wrapper, `pow1`, and then add a parameter that remembers the running total:
+One way to improve on the memory demands of `power1` is to make it tail-recursive, so that the the multiplication operation does not have to wait around for the result of the recursive call to bubble back up. We can keep the canonical signature in a wrapper, `pow1`, and then add a parameter that remembers the running total:
 
 {% highlight racket linenos %}
 
@@ -83,9 +92,11 @@ At the top level (`depth` = 0), we have an odd exponent, so we need to update `r
 
 Modular exponents
 -----------------
-As it turns out, we can use the structure of `power2` to solve a related problem: what is the value of $$x^n$$ modulo some integer $$p$$? The very helpful [algorithms compendium](http://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/) at Geeks for Geeks explains the practical importance of being able to calculate this quickly. TODO: say more about this.
+As it turns out, we can use the structure of `power2` to solve a related problem: what is the value of $$x^n$$ modulo some integer $$p$$? The very helpful [algorithms compendium](http://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/) at Geeks for Geeks explains the practical importance of being able to calculate this quickly.
 
-Let's present the algorithm and then step through how it is different from `power2`. Again, we have a wrapper function `pow3` that hides the `result` parameter.
+TODO: linger on this and show the C and Racket source code for `expt`.
+
+Moving on to the algorithm, we have a wrapper function `pow3` that hides the `result` parameter. If your recursion involves multiplication, the initial value of your accumulator (here it's called `result`) is typically 1. Why? A related question: what would be a good initial value for the running total if the algorithm involved addition?
 
 {% highlight racket linenos %}
 
@@ -122,36 +133,52 @@ As we hold $$p = 3$$ constant, we can pile up $$n$$ 5's on the top row and $$n$$
 
 $$5^1 \equiv 2^1 \pmod 3$$
 
-This follows immediately from the definition of the modulo operation. Clearly, $$a$$ "wraps around" $$p$$ the same distance that $$a \pmod p$$ does. Put another way, the remainder of $$a / p$$ is congruent (modulo $$p$$) to $$a$$ itself, since this remainder is what defines the value of $$a \pmod p$$ in the first place.
-
-Basically, after having proved the base case $$n = 1$$, we want to show that adding a factor preserves the congruency. The statement $$a^n \equiv b^n \pmod p$$ is the inductive hypothesis. Having assigned $$b := a \pmod p$$ we claim that:
+This follows immediately from the definition of the modulo operation. Clearly, $$a$$ "wraps around" $$p$$ the same distance that $$a \pmod p$$ does. Put another way, the remainder of $$a / p$$ is congruent (modulo $$p$$) to $$a$$ itself, since this remainder is what defines the value of $$a \pmod p$$ in the first place. Basically, after having proved the base case $$n = 1$$, we want to show that adding a factor preserves the congruency. The statement $$a^n \equiv b^n \pmod p$$ is the inductive hypothesis. Having assigned $$b := a \pmod p$$ we claim that:
 
 $$\begin{align}
-
 a &\equiv b \pmod p\\
 a^n &\equiv b^n \pmod p\\
 a^{n+1} &\equiv b^{n+1} \pmod p
-
 \end{align}$$
 
+Let's switch up our notation slightly so that we don't need to work with exponents. We can set $$x := a^n$$ and $$y := b^n$$ (remember that this is for some arbitary value of $$n \in \mathbb{N}$$). Now we just need to prove that it follows that $$ax \equiv by \pmod p$$. Using our updated notation, we will show that the congruences can be multiplied (much like two equalities). In fact, the proof involves briefly moving out of the congruence notation and into that of equalities. Consider that if $$a \equiv b \pmod p$$ then $$b$$ can be expressed as the sum of $$a$$ and some multiple of $$p$$:
 
+$$b = a + pc | c \in \mathbb{Z}$$
 
+We keep it simple by also only using integers (the set $$\mathbb{Z}) for all bases, exponents, and values of $$p$$. The intuition is that $$a$$ and $$b$$ remain the same number of "spots" from all the multiples of $$p$$ on the number line. We can express both the following congruences in this new form:
 
+$$\begin{align}
+a &\equiv b \pmod p\\
+x &\equiv y \pmod p\\
+b &= a + pc_1 | c_1 \in \mathbb{Z}\\
+y &= x + pc_2 | c_2 \in \mathbb{Z}\\
+\end{align}$$
 
+Since we are allowed to multiply equalities, we distribute and then factor out a $$p$$:
 
+$$\begin{align}
+by &= (a + pc_1)(x + pc_2)\\
+by &= ax + apc_2 + xpc_1 + p^2c_1c_2\\
+by &= ax + p(ac_2 + xc_1 + pc_1c_2)\\
+c_3 &:= (ac_2 + xc_1 + pc_1c_2)\\
+by &= ax + pc_3 | c_3 \in mathbb{Z}\\
+by &\equiv ax \pmod p
+\end{align}$$
 
-Let's simplify our notation and group together what we know.
-Next we introduce one of the fundamental identities of modular arithmetic:
+We've just shown that we can obtain an equality in terms of $$ax$$ and $$by$$ that is identical to the form used to convert *to* an equality *from* a congruence: namely, a remainder added to a multiple of $$p$$. This implies that $$ax$$ is congruent to $$by$$ modulo $$p$$ and vice versa. If we recall that $$x = a^n$$ and $$y = b^n$$, we've shown that if $$a^n \equiv b^n \pmod p$$ then it follows that:
 
-$$(a \pmod p)(b \pmod p) \equiv (ab \pmod p) \pmod p$$
+$$a^{n+1} \equiv b^{n+1} \pmod p$$
 
+That completes the inductive proof that we can simplify `base` to `base` modulo `p` in `pow3`. Whew! In general, what you should remember is the following identity (which is more general and less confusing):
 
+$$(a \pmod p)(b \pmod p) \equiv ab \pmod p$$
 
+Melvin Hausner has an excellent [set of notes](http://www.math.nyu.edu/faculty/hausner/congruence.pdf
+) on the basics of modular arthmetic; they were helpful in formulating and checking this post.
 
-
+We can actually use the just-mentioned form to complete our $$O(\log exp)$$ solution for modular exponentiation. Since 
 
 {% highlight racket linenos %}
-
 ; as before, this has complexity O(log exp)!
 (define (power3 base exp result p)
   (cond
@@ -168,11 +195,6 @@ $$(a \pmod p)(b \pmod p) \equiv (ab \pmod p) \pmod p$$
     		(quotient exp 2)
     		result
     		p)]))
-
 {% endhighlight %}
 
-
-
-
-http://www.math.nyu.edu/faculty/hausner/congruence.pdf
-http://www.math.nyu.edu/faculty/hausner/congruence.pdf
+Note that this function has the desired $$O(\log_2 \text{exp})$$ time complexity, but we are just using Racket's built-in `modulo` operator. Can we do better, following a trick of Hausner?
