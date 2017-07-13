@@ -165,18 +165,25 @@ by &= ax + pc_3 | c_3 \in \mathbb{Z}\\
 by &\equiv ax \pmod p
 \end{align}$$
 
-We've just shown that we can obtain an equality in terms of $$ax$$ and $$by$$ that is identical to the form used to convert *to* an equality *from* a congruence: namely, a remainder added to a multiple of $$p$$. This implies that $$ax$$ is congruent to $$by$$ modulo $$p$$ and vice versa. If we recall that $$x = a^n$$ and $$y = b^n$$, we've shown that if $$a^n \equiv b^n \pmod p$$ then it follows that:
+We've just shown that we can obtain an equality in terms of $$ax$$ and $$by$$ that is identical to the form used to convert *to* an equality *from* a congruence: namely, a remainder added to a multiple of $$p$$. This implies that $$ax$$ is congruent to $$by$$ modulo $$p$$ and vice versa (by the symmetry of congruences). If we recall that $$x = a^n$$ and $$y = b^n$$, we've shown that if $$a^n \equiv b^n \pmod p$$ then it follows that:
 
 $$a^{n+1} \equiv b^{n+1} \pmod p$$
 
-That completes the inductive proof that we can simplify `base` to `base` modulo `p` in `pow3`. Whew! In general, what you should remember is the following identity (which is more general and less confusing):
+That completes the inductive proof that we can simplify `base` to `base` modulo `p` in a modular exponentiation function such as `pow3`. Whew! A more general (and very useful) identity for multiplying congruences is:
 
 $$(a \pmod p)(b \pmod p) \equiv ab \pmod p$$
 
 Melvin Hausner has an excellent [set of notes](http://www.math.nyu.edu/faculty/hausner/congruence.pdf
-) on the basics of modular arthmetic; they were helpful in formulating and checking this post.
+) on the basics of modular arthmetic. They were helpful in formulating and checking this post.
 
-We can actually use the just-mentioned form to complete our $$O(\log exp)$$ solution for modular exponentiation. Since 
+We can use this identity to complete our $$O(\log exp)$$ solution for modular exponentiation. Note that this function has the desired $$O(\log_2 \text{exp})$$ time complexity, but we are just using Racket's built-in `modulo` operator. Can we do better, following a trick of Hausner?
+
+Actually: built-in modulo handles giant exponents with ease! here is good motivation for profiling part. Maybe extract that out into separate post? (don't ruin it for 201 students)
+
+https://github.com/racket/math/blob/master/math-lib/math/private/number-theory/modular-arithmetic.rkt
+
+Link to Rosetta Code and then benchmark expt vs modular-expt in Racket
+
 
 {% highlight racket linenos %}
 ; as before, this has complexity O(log exp)!
@@ -197,4 +204,10 @@ We can actually use the just-mentioned form to complete our $$O(\log exp)$$ solu
     		p)]))
 {% endhighlight %}
 
-Note that this function has the desired $$O(\log_2 \text{exp})$$ time complexity, but we are just using Racket's built-in `modulo` operator. Can we do better, following a trick of Hausner?
+
+TODO
+* proofread
+* Knuth
+* source code for Racket, C expt
+* discussion of Geeks for Geeks solution
+
