@@ -20,19 +20,46 @@ echo "Converting $1 to $name.[docx|html|pdf]..."
 # NOTE: the CSS file is given as a relative path because it is only incorporated
 # in localhost or on the website (not in the compilation)
 
+# Generate the HTML
 pandoc\
 	--toc\
 	--bibliography="$PROJECT/assets/bib/references.bib"\
 	--csl="$PROJECT/assets/bib/modern-language-association-8th-edition.csl"\
 	--css="/assets/css/pandoc.css"\
 	--filter pandoc-citeproc\
-	-o $name.docx\
 	-o $name.html\
+	-f\
+	markdown+citations+implicit_figures+inline_notes+yaml_metadata_block\
+	-s\
+	$1
+
+echo "HTML generated!"
+
+# Generate a PDF LaTeX version
+pandoc\
+	--toc\
+	--bibliography="$PROJECT/assets/bib/references.bib"\
+	--csl="$PROJECT/assets/bib/modern-language-association-8th-edition.csl"\
+	--filter pandoc-citeproc\
 	-o $name.pdf\
 	-f\
 	markdown+citations+implicit_figures+inline_notes+yaml_metadata_block\
 	-s\
 	$1
 
-echo "Done!"
+echo "PDF generated!"
+
+# Finally, let's do a word file
+pandoc\
+	--toc\
+	--bibliography="$PROJECT/assets/bib/references.bib"\
+	--csl="$PROJECT/assets/bib/modern-language-association-8th-edition.csl"\
+	--filter pandoc-citeproc\
+	-o $name.docx\
+	-f\
+	markdown+citations+implicit_figures+inline_notes+yaml_metadata_block\
+	-s\
+	$1
+
+echo "Word DOCX generated!"
 
