@@ -9,7 +9,7 @@ Stopping to describe what it is I'm doing is one of the ways to keep the researc
 
 As I return to the `illustra-ligner` project and convert those tools to work with the HathiTrust APIs (next step: build my own book image API, perhaps in collaboration with HTRC), the research rewards are becoming clear. Working with a dataset of all the search results for "Peter Parley" from 1827-1855, patterns of outright reuse and repackaging are obvious.
 
-This emergence is first of all a result of what I have been calling visual search. That is, I cluster all the extracted image details from the Parley dataset and start looking at them. One of the best ways to start the discovery process is by picking a random image (out of the more than 4000 extracted illustrations. Pretty quickly, I notice a neighborhood with lots of identical copies: the source image is a jungle scene with reptiles.
+This emergence is first of all a result of what I have been calling visual search. That is, I cluster all the extracted image details from the Parley dataset and start looking at them. One of the best ways to start the discovery process is by picking a random image (out of the more than 4000 extracted illustrations in my initial dataset). Pretty quickly, I notice a neighborhood with lots of identical copies: the source image is a jungle scene with reptiles.
 
 ![](/assets/img/show-neighbors-prototype.png)
 
