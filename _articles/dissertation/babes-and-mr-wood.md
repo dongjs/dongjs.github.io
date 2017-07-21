@@ -15,6 +15,8 @@ Wood and Mahlon Day were both Quakers and had a near monopoly on the juvenile bo
 http://rbscp.lib.rochester.edu/3393
 
 
+suzanne@elmcampus.com
+
 Works Cited
 -----------
 
