@@ -1,5 +1,5 @@
 ---
-title: Babes and Mr. Wood: Print and Prison Technology in New York
+title: "Babes and Mr. Wood: Print and Prison Technology in New York"
 author: Stephen Krewson
 link-citations: true
 keywords: ["Samuel S. Wood", "African Free Schools", "Society of Friends", "Juvenile detention"]
