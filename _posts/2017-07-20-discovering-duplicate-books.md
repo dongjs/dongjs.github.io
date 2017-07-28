@@ -5,11 +5,13 @@ title: Discovering Duplicate Books with illustra-ligner
 
 DRAFT
 
+Discovery
+---------
 Stopping to describe what it is I'm doing is one of the ways to keep the research process on-track and enjoyable.
 
 As I return to the `illustra-ligner` project and convert those tools to work with the HathiTrust APIs (next step: build my own book image API, perhaps in collaboration with HTRC), the research rewards are becoming clear. Working with a dataset of all the search results for "Peter Parley" from 1827-1855, patterns of outright reuse and repackaging are obvious.
 
-This emergence is first of all a result of what I have been calling visual search. That is, I cluster all the extracted image details from the Parley dataset and start looking at them. One of the best ways to start the discovery process is by picking a random image (out of the more than 4000 extracted illustrations in my initial dataset). Pretty quickly, I notice a neighborhood with lots of identical copies: the source image is a jungle scene with reptiles.
+This emergence is first of all a result of what could be called "visual search." That is, I cluster all the extracted image details from the Parley dataset and start looking at them. One of the best ways to start the discovery process is by picking a random image (out of the more than 4000 extracted illustrations in my initial dataset). Pretty quickly, I notice a neighborhood with lots of identical copies: the source image is a jungle scene with reptiles.
 
 ![](/assets/img/show-neighbors-prototype.png)
 
@@ -29,18 +31,18 @@ Let me highlight the three "matching pairs" that most intrigued me by framing th
 
 In this genre, the full title is too noisy a source of information to use in discovery phase. Let's consider the three pairs by place and date of publication (the neighbor and volume IDs are given for reference and are annotated in red on the thumbnails themselves). This gives us:
 
-Color | Neighbor | Volume | Place | Date
---- | --- | --- | --- | --- | ---
-Red | 0 | 0 | Boston | 1834
-Red | 2 | 2 | New York | 1854
-Blue | 5 | 5 | Philadelphia | 1847 
-Blue | 8 | 6 | Philadelphia | 1832
-Purple | 12 | 4 | New York | 1854
-Purple | 14 | 1 | Philadelphia | 1834
+Color | Neighbor | Volume | Place | Date | `htid`
+--- | --- | --- | --- | --- | --- | ---
+Red | 0 | 0 | Boston | 1834 | `hvd.hn5dhi`
+Red | 2 | 2 | New York | 1854 | `pst.000072253328`
+Blue | 5 | 5 | Philadelphia | 1847 | `hvd.32044021161013`
+Blue | 8 | 6 | Philadelphia | 1832 | `hvd.hn5dt4`
+Purple | 12 | 4 | New York | 1854 | `hvd.hn5eb1`
+Purple | 14 | 1 | Philadelphia | 1834 | `hvd.hn63jm`
 
 Keeping in mind that same color means a match between wood engraving, we can further distinguish within the "reused after a long interval" category. In the case of red and purple, New York publishers re-release illustrations first used in Boston and Philadelphia twenty years previously! (likely as part of the same printing/distribution push in 1834). In the case of the blue pair, we have a wood engraving showing up in a book by a different printer in the same city, fifteen years later. 
 
-Now, we have some excellent leads to follow up on. In particular, it seems as if Peter Parley's *The every day book* was repackaged wholesale into an 1850s gift book/annual: *A gift for my young friends*. In the next installment of this post, I'll talk about what I found when I dug deeper into Goodrich's memoirs and the secondary literature on gift books.
+Now, we have some excellent leads to follow up on. In particular, it seems as if Peter Parley's *The every day book* was repackaged wholesale into an 1850s gift book/annual: *A gift for my young friends*. In the next section of this post ("Detail"), I'll talk about what I found when I dug deeper into Goodrich's memoirs and the secondary literature on gift books.
 
 I'll also show how I was able to use another tool, `illustration-collation` (developed through a grant from the Yale DH Lab), to load up the image sets from the 1830s and 1850s books and prove that the set of engravings had been completely reused.
 
@@ -53,3 +55,15 @@ In closing, I want to offer a brief motivation for why this approach has advanta
 For your perusal, here are the full page images from which the first 15 neighbors were found for the reptiles image:
 
 ![](/assets/img/show-neighbors-full-page.png)
+
+
+Detail
+------
+`hvd.hn63jm` (Philadelphia: 1834) and `hvd.hn5eb1` (New York: 1854) (the purple match) are the same book.
+
+We want to investigate the following publishers:
+
+Thomas T. Ash
+Tuttle and Weeks
+Leavitt
+carter hendee
