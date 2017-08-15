@@ -26,7 +26,7 @@ Exponents
 ---------
 In Lisp-based languages, the purely recursive solution to $$x^n$$ is elegant; however, it runs in linear time (there are $$n$$ multiplications).
 
-{% highlight racket linenos %}
+{% highlight racket %}
 
 ; recursive O(exp) solution
 (define (power base exp)
@@ -38,7 +38,7 @@ In Lisp-based languages, the purely recursive solution to $$x^n$$ is elegant; ho
 
 One way to improve on the memory demands of `power1` is to make it tail-recursive, so that the the multiplication operation does not have to wait around for the result of the recursive call to bubble back up. We can keep the canonical signature in a wrapper, `pow1`, and then add a parameter that remembers the running total:
 
-{% highlight racket linenos %}
+{% highlight racket %}
 
 ; tail-recursive O(exp) solution
 ; wrapper for keeping the function signature clean
@@ -55,7 +55,7 @@ One way to improve on the memory demands of `power1` is to make it tail-recursiv
 
 Can we do even better? Think about an expression like $$3^4$$. We could rewrite this as $$3^2 \times 3^2$$, using the identity $$a^b = a^{b/2}a^{b/2}$$. Recursively, $$b/2$$ will become the new $$b$$ and we will continue until $$b = 0$$. This will take $$\log b$$ steps.
 
-{% highlight racket linenos %}
+{% highlight racket %}
 
 ; tail-recursive O(log exp) solution using identity a^b = a^(b/2)*a^(b/2) 
 (define (pow2 base exp)
@@ -98,7 +98,7 @@ TODO: linger on this and show the C and Racket source code for `expt`.
 
 Moving on to the algorithm, we have a wrapper function `pow3` that hides the `result` parameter. If your recursion involves multiplication, the initial value of your accumulator (here it's called `result`) is typically 1. Why? A related question: what would be a good initial value for the running total if the algorithm involved addition?
 
-{% highlight racket linenos %}
+{% highlight racket %}
 
 ; for x^n % p, if x > p, we can just evaluate (x % p)^n % p 
 (define (pow3 base exp p)
@@ -185,7 +185,7 @@ https://github.com/racket/math/blob/master/math-lib/math/private/number-theory/m
 Link to Rosetta Code and then benchmark expt vs modular-expt in Racket
 
 
-{% highlight racket linenos %}
+{% highlight racket %}
 ; as before, this has complexity O(log exp)!
 (define (power3 base exp result p)
   (cond
