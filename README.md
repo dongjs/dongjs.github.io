@@ -1,28 +1,36 @@
 About
 =====
-
 This site is built with Jekyll and React. The static content uses a slightly-
-modified version of the [Cayman theme] for GitHub Pages.
+modified version of the [Cayman theme](https://pages-themes.github.io/cayman/) for GitHub Pages.
 
-The various tools and dependencies are listed below.
+Details of my environment, toolchain, and dependencies are given below. Mainly, this helps me reproduce functionality (and remember bugs!) when working from a different computer.
 
-Since Jekyll and Kramdown do not support citations and image captions, I use Pandoc to generate my research articles. These adhere to [Pandoc markdown] and are built with a very simple shell script. Before pushing to GitHub, I refresh my Zotero bibliography, export it to `/assets/bib/references.bib` and then run `/scripts/article-md-to-html.sh MARKDOWN_FILE`. The various Pandoc extensions are invoked within this script. As works-in-progress, the articles are unstyled (excepting some minimal CSS to keep image sizes reasonable).
+My goal is a plaintext workflow that keeps me focused on writing and researching. For excellent guidance--aimed at humanists--on this subject, see Nicholas Cifuentes-Goodbody's [YouTube channel](https://www.youtube.com/channel/UCYspUZGexLdDLjHRkuERQlg) and [this article](https://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) by Dennis Tenen and Grant Wythoff.
 
-In building the site, I was revisiting my own efforts (circa 2015) but with a better understanding of both web programming as well as templating frameworks.
+Since Jekyll and Kramdown do not support citations and image captions, I use Pandoc to generate my research articles. These take advantage of [Pandoc-flavored Markdown](http://pandoc.org/MANUAL.html#pandocs-markdown) and are built with a very simple shell script. Before pushing to GitHub, I refresh my Zotero bibliography, export it to `/assets/bib/references.bib` and then run `/scripts/article-md-to-html.sh MARKDOWN_FILE`. The various Pandoc extensions are invoked within this script. As works-in-progress, the articles are unstyled (excepting some minimal CSS to keep image sizes reasonable).
 
-While I admire Chris Olah's blog very much, using Haskell's Stack and Hakyll with the Windows subsystem for Linux (WSL) is not workable yet. Even installing Ruby was unexpectedly complex, as `rbenv` does not work.
+In building the site, I was revisiting my own efforts (circa 2015) but with a better understanding of both web programming as well as templating frameworks. While I was inspired to do this by Chris Olah's blog (and the Distill platform), using Haskell's Stack and Hakyll with the Windows subsystem for Linux (WSL) is not workable yet.
 
-For excellent explanations of how to use a plaintext workflow, see Nicholas Cifuentes-Goodbody's [YouTube channel] and [this article] by Dennis Tenen and Grant Wythoff.
+Even installing Ruby and Node on WSL Ubuntu was unexpectedly complex, as `rbenv` and `nvm` either do not work or load extremely slowly (as of Summer 2017). Credit to Microsoft for maintaining a clear [issues tracker](https://github.com/Microsoft/BashOnWindows/issues), however. 
 
 
-Tools
-=====
+System
+======
 
-WSL
----
-* Enable "fast" Insider Preview builds
-* Ubuntu (Keep updated with `apt-get update|upgrade`)
-* Ruby (N.B. not through `apt-get` or installer, but a managed distro from Bright)
+Environment (as of August 2017)
+-------------------------------
+* Windows 10, Insider Preview Build 15063.540
+* Windows Subystem for Linux, Ubuntu 16.04.3 "xenial"
+
+Previewing the site
+-------------------
+From the top-level directory, run `bundle exec jekyll serve`; navigate to `localhost:4000` in a browser. Jekyll [requires](https://jekyllrb.com/docs/installation/) Ruby 2.1+ and Ubuntu 16.04 ships with `ruby` 2.3.1 and `gem` 2.5.1. However, the `apt-get` package comes with insufficient privileges for installing `bundler`
+
+> Fetching: bundler-1.15.3.gem (100%)
+> ERROR:  While executing gem ... (Gem::FilePermissionError)
+> You don't have write permissions for the /var/lib/gems/2.3.0 directory.
+
+
 
 
 Jekyll
@@ -63,13 +71,6 @@ Research
 Site
 ----
 * ~~Add PDF and DOCX links for all articles~~
-* Abstract poetry into "poems" Jekyll collection
+* ~~Abstract poetry into "poems" Jekyll collection~~
 * Style research articles using SASS from gh-pages themes (low priority)
 * ~~Make header button link to first heading of README~~
-
-<!-- References -->
-[Cayman theme]: https://github.com/pages-themes/cayman 
-[Pandoc markdown]: http://pandoc.org/MANUAL.html#pandocs-markdown
-[pandoc-citeproc]: https://hackage.haskell.org/package/pandoc-citeproc
-[YouTube channel]: https://www.youtube.com/channel/UCYspUZGexLdDLjHRkuERQlg/featured
-[this article]: http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
