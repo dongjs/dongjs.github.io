@@ -38,26 +38,9 @@ Previewing the site with Jekyll
 -------------------------------
 Jekyll has `make` and `gcc` as [dependencies](https://jekyllrb.com/docs/installation/), so the very first step is to make sure these basic C tools are installed: `sudo apt-get install build-essential`.
 
-The goal is a concise number of steps for reproducing my environment on a new machine. Thus I'm OK with `sudo` or `--user` installs because tinkering with the `PATH` opens the door to things breaking. Similarly, after encountering various permissions and performance issues with Ubuntu's Ruby, I followed the advice of several bloggers and installed as a package from [Brightbox](https://www.brightbox.com/docs/ruby/ubuntu/). See [this guide](https://ntsystems.it/post/Jekyll-on-WSL).
+The goal is a concise number of steps for reproducing my environment on a new machine. Thus I'm OK with `sudo` installs because tinkering with the `PATH` opens the door to things breaking (`pip`, `apt-get`, etc. should normally be used with the `--user` flag). Similarly, after encountering various permissions and performance issues with Ubuntu's Ruby/rbenv, I followed the advice of several bloggers and installed it as a package from [Brightbox](https://www.brightbox.com/docs/ruby/ubuntu/). See [this guide](https://ntsystems.it/post/Jekyll-on-WSL).
 
-After installing Jekyll and Bundler, run `bundle install` to add the correct dependencies from the project's `Gemfile` and everything is ready.
-
-From the top-level directory, run `bundle exec jekyll serve`; then navigate to `localhost:4000` in a browser.
-
-
-
-
-Packages
---------
-* `apt-get`: haskell, pandoc, pandoc-citeproc
-
-
-Text
-----
-* Vim (`git clone https://github.com/StephenKrewson/config.git` for easy access to customized `.vimrc`)
-* Sublime Text 3 (licensed), mostly for the incredible distraction-free mode (`Shift+F11`) and linewrapping
-* Pandoc with extensions `citations`, `
-* `[pandoc-citeproc]` to power the citations extension
+After installing Jekyll and Bundler, run `bundle install` to add the correct dependencies from the project's `Gemfile` and everything is ready. From the top-level directory, run `bundle exec jekyll serve` then navigate to `localhost:4000` in a browser.
 
 
 TODO
