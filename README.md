@@ -27,9 +27,11 @@ Tools
 * Vim (copy customized `.vimrc` from my [config repo](https://github.com/StephenKrewson/config) to `$HOME`)
 * Zotero
 
-Previewing the site
--------------------
-From the top-level directory, run `bundle exec jekyll serve`; navigate to `localhost:4000` in a browser. Jekyll [requires](https://jekyllrb.com/docs/installation/) Ruby 2.1+ and Ubuntu 16.04 ships with `ruby` 2.3.1 and `gem` 2.5.1. However, the `apt-get` package comes with insufficient privileges for installing `bundler`:
+Previewing the site with Jekyll
+-------------------------------
+Jekyll has `make` and `gcc` as [dependencies](https://jekyllrb.com/docs/installation/), so the very first step is to make sure these basic C tools are installed: `sudo apt-get install build-essential`. In general, we will try to NOT use `sudo` privileges when installing packages. My goal of minimal setup overhead means preferring Ubuntu's own package manager whenver possible. But as we will see with Ruby, this is not always possible.
+
+Jekyll [requires] Ruby 2.1+ and Ubuntu 16.04 ships with `ruby` 2.3.1 and `gem` 2.5.1. However, the `apt-get` package comes with insufficient privileges for installing `bundler` (even as superuser):
 
 ```
 Fetching: bundler-1.15.3.gem (100%)
@@ -37,7 +39,9 @@ ERROR:  While executing gem ... (Gem::FilePermissionError)
 You don't have write permissions for the /var/lib/gems/2.3.0 directory.
 ```
 
-The workaround is to install the latest stable Ruby from Brightbox: ``. 
+The workaround is to install the latest stable Ruby from Brightbox Networks. See [this guide](https://ntsystems.it/post/Jekyll-on-WSL). In my case, after adding the Brightbox repo, Ruby 2.4 was the latest version. 
+
+From the top-level directory, run `bundle exec jekyll serve`; navigate to `localhost:4000` in a browser.
 
 
 Jekyll
