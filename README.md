@@ -1,9 +1,7 @@
 About
 =====
 This site is built with Jekyll and React. The static content uses a slightly-
-modified version of the [Cayman theme](https://pages-themes.github.io/cayman/) for GitHub Pages.
-
-Details of my environment, toolchain, and dependencies are given below. Mainly, this helps me reproduce functionality (and remember bugs!) when working from a different computer.
+modified version of the [Cayman theme](https://pages-themes.github.io/cayman/) for GitHub Pages. Details of my environment, toolchain, and dependencies are given below. Mainly, this helps me reproduce functionality (and remember bugs!) when working from a different computer.
 
 My goal is a plaintext workflow that keeps me focused on writing and researching. For excellent guidance--aimed at humanists--on this subject, see Nicholas Cifuentes-Goodbody's [YouTube channel](https://www.youtube.com/channel/UCYspUZGexLdDLjHRkuERQlg) and [this article](https://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) by Dennis Tenen and Grant Wythoff.
 
@@ -22,15 +20,24 @@ Environment (as of August 2017)
 * Windows 10, Insider Preview Build 15063.540
 * Windows Subystem for Linux, Ubuntu 16.04.3 "xenial"
 
+Tools
+-----
+* Pandoc
+* Sublime Text 3 (registration key not versioned but kept in Dropbox)
+* Vim (copy customized `.vimrc` from my [config repo](https://github.com/StephenKrewson/config) to `$HOME`)
+* Zotero
+
 Previewing the site
 -------------------
-From the top-level directory, run `bundle exec jekyll serve`; navigate to `localhost:4000` in a browser. Jekyll [requires](https://jekyllrb.com/docs/installation/) Ruby 2.1+ and Ubuntu 16.04 ships with `ruby` 2.3.1 and `gem` 2.5.1. However, the `apt-get` package comes with insufficient privileges for installing `bundler`
+From the top-level directory, run `bundle exec jekyll serve`; navigate to `localhost:4000` in a browser. Jekyll [requires](https://jekyllrb.com/docs/installation/) Ruby 2.1+ and Ubuntu 16.04 ships with `ruby` 2.3.1 and `gem` 2.5.1. However, the `apt-get` package comes with insufficient privileges for installing `bundler`:
 
-> Fetching: bundler-1.15.3.gem (100%)
-> ERROR:  While executing gem ... (Gem::FilePermissionError)
-> You don't have write permissions for the /var/lib/gems/2.3.0 directory.
+```
+Fetching: bundler-1.15.3.gem (100%)
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+You don't have write permissions for the /var/lib/gems/2.3.0 directory.
+```
 
-
+The workaround is to install the latest stable Ruby from Brightbox: ``. 
 
 
 Jekyll
