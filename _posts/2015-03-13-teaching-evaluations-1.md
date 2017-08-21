@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning from Teaching Evaluations
+title: Learning from Teaching Evaluations 1
 ---
 
 Due to an application for another teaching fellow position, I had occasion to go back and look at my evaluations from TF-ing in the fall. The course was Brian Walsh's "Shakespeare: Histories and Tragedies." The evaluations were positive in a qualified way and contained many well-deserved suggestions for improvement. No lie, it's tough to read anonymous, honest comments about the weaknesses of your own teaching style. I'm glad that this was my first course as a TF and I now have feedback for improving those aspects and growing stronger in my areas of strength. Here are some action points based on those comments.
