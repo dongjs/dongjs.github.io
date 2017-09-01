@@ -30,9 +30,11 @@ Tools
 * Vim (copy customized `.vimrc` from my [config repo](https://github.com/StephenKrewson/config) to `$HOME`)
 * Zotero
 	- Sync to account `stephen-krewson`
+	- Sync to Box WebDAV server through 
 	- Enable Chrome plugin
 	- Save bibliography to Dropbox
 	- Install ZotFile and BetterBib(La)TeX extensions
+	- https://github.com/retorquere/zotero-better-bibtex/issues/555
 
 Previewing the site with Jekyll
 -------------------------------
