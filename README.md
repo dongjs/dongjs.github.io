@@ -19,54 +19,30 @@ Environment (as of August 2017)
 -------------------------------
 * Windows 10, Insider Preview Build 15063.540
 * Windows Subystem for Linux, Ubuntu 16.04.3 "xenial"
+	- Regularly run `sudo apt-get [update|upgrade|autoremove]`
 
 Tools
 -----
 * Pandoc
+	- Install with `apt-get`
+	- Install dependency `haskell-platform` and extension `pandoc-citeproc` with `apt-get` as well
 * Sublime Text 3 (registration key not versioned but kept in Dropbox)
 * Vim (copy customized `.vimrc` from my [config repo](https://github.com/StephenKrewson/config) to `$HOME`)
 * Zotero
+	- Sync to account `stephen-krewson`
+	- Sync to Box WebDAV server through 
+	- Enable Chrome plugin
+	- Save bibliography to Dropbox
+	- Install ZotFile and BetterBib(La)TeX extensions
+	- https://github.com/retorquere/zotero-better-bibtex/issues/555
 
 Previewing the site with Jekyll
 -------------------------------
-Jekyll has `make` and `gcc` as [dependencies](https://jekyllrb.com/docs/installation/), so the very first step is to make sure these basic C tools are installed: `sudo apt-get install build-essential`. In general, we will try to NOT use `sudo` privileges when installing packages. My goal of minimal setup overhead means preferring Ubuntu's own package manager whenver possible. But as we will see with Ruby, this is not always possible.
+Jekyll has `make` and `gcc` as [dependencies](https://jekyllrb.com/docs/installation/), so the very first step is to make sure these basic C tools are installed: `sudo apt-get install build-essential`.
 
-Jekyll [requires] Ruby 2.1+ and Ubuntu 16.04 ships with `ruby` 2.3.1 and `gem` 2.5.1. However, the `apt-get` package comes with insufficient privileges for installing `bundler` (even as superuser):
+The goal is a concise number of steps for reproducing my environment on a new machine. Thus I'm OK with `sudo` installs because tinkering with the `PATH` opens the door to things breaking (`pip`, `apt-get`, etc. should normally be used with the `--user` flag). Similarly, after encountering various permissions and performance issues with Ubuntu's Ruby/rbenv, I followed the advice of several bloggers and installed it as a package from [Brightbox](https://www.brightbox.com/docs/ruby/ubuntu/). See [this guide](https://ntsystems.it/post/Jekyll-on-WSL).
 
-```
-Fetching: bundler-1.15.3.gem (100%)
-ERROR:  While executing gem ... (Gem::FilePermissionError)
-You don't have write permissions for the /var/lib/gems/2.3.0 directory.
-```
-
-The workaround is to install the latest stable Ruby from Brightbox Networks. See [this guide](https://ntsystems.it/post/Jekyll-on-WSL). In my case, after adding the Brightbox repo, Ruby 2.4 was the latest version. 
-
-From the top-level directory, run `bundle exec jekyll serve`; navigate to `localhost:4000` in a browser.
-
-
-Jekyll
-------
-* Dependencies: `ruby`, `gem`, `bundler`
-* Install: `gem install jekyll`
-* Flavor: GitHub Pages, Cayman Theme, Liquid templating
-
-
-Packages
---------
-* `apt-get`: haskell, pandoc, pandoc-citeproc
-
-
-Text
-----
-* Vim (`git clone https://github.com/StephenKrewson/config.git` for easy access to customized `.vimrc`)
-* Sublime Text 3 (licensed), mostly for the incredible distraction-free mode (`Shift+F11`) and linewrapping
-* Pandoc with extensions `citations`, `
-* `[pandoc-citeproc]` to power the citations extension
-
-Bibliography
-------------
-* Zotero (once I committed to pushing my writing to the web in real-time, I was able to abandon EndNote and craft a completely plaintext workflow)
-* ZotFile and BetterBib(La)TeX extensions
+After installing Jekyll and Bundler, run `bundle install` to add the correct dependencies from the project's `Gemfile` and everything is ready. From the top-level directory, run `bundle exec jekyll serve` then navigate to `localhost:4000` in a browser.
 
 
 TODO
