@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-PROJECT="/mnt/d/stephen-krewson/Documents/StephenKrewson.github.io"
+PROJECT="/mnt/c/Users/stephen-krewson/Documents/StephenKrewson.github.io"
 
 # Ensure a file is given as an argument
 if [ "$#" -ne 1 ] || ! [ -f "$1" ]; then
