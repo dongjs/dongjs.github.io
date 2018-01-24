@@ -5,17 +5,11 @@ link-citations: true
 keywords: ["Children's Literature", "History of Science", "Book History", "Education"]
 ---
 
-Sets and Sites
---------------
-Here are five keywords:
 
-* Apparatus
-* Cut
-* School
-* Home
-* Lyceum
+Introduction
+------------
 
-This is the introduction to my dissertation. Here is a picture:
+Placeholder for plaintext build system for dissertation. Here is an example illustration:
 
 ![Method of telling about geography (1830).](img/parley-geography.jpg)
 

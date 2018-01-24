@@ -13,6 +13,6 @@ for f in $(find . -mmin -60 -name "*.md")
 do
 	echo $f
 	# render to HTML, PDF, and DOCX
-	$PROJECT/scripts/convert-markdown.sh $f
+	$PROJECT/scripts/convert-mla.sh $f
 done
 
