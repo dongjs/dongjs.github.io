@@ -2,6 +2,20 @@ img {
   width: 50%;
 }
 
+
+/* Exeriment from:
+ * http://www.simon-li.com/design-and-code/how-to-set-perfect-line-lengths-for-your-webpages/
+*/
+
+body {
+	width: 36em;
+	margin: 0 auto;
+	max-width: 100%;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+
 /* 
  * One issue is that there is not section head for endnotes; see John
  * MacFarlane's (Pandoc creator) comment and solution here: 

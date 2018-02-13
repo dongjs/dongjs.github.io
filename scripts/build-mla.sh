@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # absolute path to top level of repo
 PROJECT="/mnt/c/Users/stephen-krewson/Documents/StephenKrewson.github.io"
 
