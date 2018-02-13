@@ -7,7 +7,7 @@ github: metadata
 markdown: kramdown
 
 # support emoji
-gems:
+plugins:
   - jemoji
 
 # https://jekyllrb.com/docs/collections/ (TODO: poems, music?)
