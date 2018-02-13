@@ -44,6 +44,8 @@ The goal is a concise number of steps for reproducing my environment on a new ma
 
 After installing Jekyll and Bundler, run `bundle install` to add the correct dependencies from the project's `Gemfile` and everything is ready. From the top-level directory, run `bundle exec jekyll serve` then navigate to `localhost:4000` in a browser.
 
+Note that file regeneration appears to work, but doesn't actually on WSL. So the general workflow is to work until you've written a decent amoung, preview locally, then push up to GitHub. What this works poorly for is checking CSS adjustments; but the focus should be on writing!
+
 
 TODO
 ====
