@@ -25,6 +25,7 @@ echo "Converting $1 to $name.[docx|html|pdf]..."
 # Generate the HTML
 pandoc\
 	--toc\
+	--number-sections\
 	--bibliography="$PROJECT/assets/bib/references.bib"\
 	--csl="$PROJECT/assets/bib/modern-language-association-8th-edition.csl"\
 	--css="/assets/css/pandoc.css"\
@@ -40,6 +41,7 @@ echo "HTML generated!"
 # Generate a PDF LaTeX version
 pandoc\
 	--toc\
+	--number-sections\
 	--bibliography="$PROJECT/assets/bib/references.bib"\
 	--csl="$PROJECT/assets/bib/modern-language-association-8th-edition.csl"\
 	--filter pandoc-citeproc\
@@ -54,6 +56,7 @@ echo "PDF generated!"
 # Finally, let's do a word file
 pandoc\
 	--toc\
+	--number-sections\
 	--bibliography="$PROJECT/assets/bib/references.bib"\
 	--csl="$PROJECT/assets/bib/modern-language-association-8th-edition.csl"\
 	--filter pandoc-citeproc\
