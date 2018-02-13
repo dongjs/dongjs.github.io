@@ -6,8 +6,7 @@ keywords: ["Children's Literature", "History of Science", "Book History", "Educa
 ---
 
 
-Introduction
-------------
+## Intro
 
 Placeholder for plaintext build system for dissertation. Here is an example illustration:
 
@@ -18,13 +17,11 @@ And here is an inline footnote.^[Always stick to these. Keep them to one paragra
 Keep styling to separate CSS sheet (for image widths, etc.). Here is a test of a line that should surely overflow. But hopefully it is capped in a nice way.
 
 
-Context
--------
+## Context
 
 A second section.
 
 
 
 
-Works Cited
------------
+## Works Cited
