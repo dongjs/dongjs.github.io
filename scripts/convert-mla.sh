@@ -20,12 +20,14 @@ echo "Converting $1 to $name.[docx|html|pdf]..."
 # NOTE: the CSS file is given as a relative path because it is only incorporated
 # in localhost or on the website (not in the compilation)
 
+# TODO: check against config repo since I have added more pandoc options
+
 # Generate the HTML
 pandoc\
 	--toc\
 	--bibliography="$PROJECT/assets/bib/references.bib"\
 	--csl="$PROJECT/assets/bib/modern-language-association-8th-edition.csl"\
-	--css="/assets/css/pandoc.css"\
+	--css="$PROJECT/assets/css/pandoc.css"\
 	--filter pandoc-citeproc\
 	-o $name.html\
 	-f\
