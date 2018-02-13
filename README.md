@@ -19,7 +19,7 @@ Environment (as of August 2017)
 -------------------------------
 * Windows 10, Insider Preview Build 15063.540
 * Windows Subystem for Linux, Ubuntu 16.04.3 "xenial"
-	- Regularly run `sudo apt-get [update|upgrade|autoremove]`
+	- Regularly run `sudo apt [update|upgrade|autoremove]`
 
 Tools
 -----
@@ -30,7 +30,7 @@ Tools
 * Vim (copy customized `.vimrc` from my [config repo](https://github.com/StephenKrewson/config) to `$HOME`)
 * Zotero
 	- Sync to account `stephen-krewson`
-	- Sync to Box WebDAV server through 
+	- Sync to Box WebDAV server (school email is login, need to restart Zotero a couple of times)
 	- Enable Chrome plugin
 	- Save bibliography to Dropbox
 	- Install ZotFile and BetterBib(La)TeX extensions
