@@ -32,7 +32,8 @@ Tools
 	- Sync to account `stephen-krewson`
 	- Sync to Box WebDAV server (school email is login, need to restart Zotero a couple of times)
 	- Enable Chrome plugin
-	- Save bibliography to Dropbox
+	- NEW: run updated export from Zotero to `references.bib` in this repo; customize Better BibTex
+		* https://retorque.re/zotero-better-bibtex/customized-exports/
 	- Install ZotFile and BetterBib(La)TeX extensions
 	- https://github.com/retorquere/zotero-better-bibtex/issues/555
 
