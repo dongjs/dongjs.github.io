@@ -12,7 +12,9 @@ This chapter continues the thread of thinking about apparatus and cut by address
 
 Bewick and Goodrich in their memoirs both express as dissatisfaction with the state of children's literature. Work outwards from the memoirs.
 
-![Method of telling about geography (1830).](img/bewick.jpg)
+Charles Robert Leslie and Am. Journ. Educ. have material on Bewick.
+
+![Method of telling about geography (1830).](img/bm-pidcock-bewick-poster.jpg)
 
 Did the speedup of narrated literary time over the past three centuries have visual analogues? When we consider historical change in the printed *mise en page*, one counterpart phenomenon stands out. Early nineteenth-century wood engravings--especially the popular "vignette" form--were understood by readers as marking a shift in reading's media format and temporality. The career of Samuel Griswold Goodrich, instigator of the short-lived Boston Bewick Company, connects many of the actors and formats involved in this shift. The Bewick Company took its name and characteristic style from the work of the British engraver Thomas Bewick (1753-1828). Active from 1834-????, the company comprised an engraving workshop and various other things.
 
@@ -43,6 +45,12 @@ https://books.google.com/books?id=vC0YAAAAMAAJ&pg=RA2-PA11&lpg=RA2-PA11&dq=tom+t
 Most accurate info is at Bewick Society website. It seems that Bewick owned a copy of Tom Telescope but probably did not illustrate an edition. Pearson has incorrect information.
 
 - Incorporation of Boston Bewick Co.: http://archives.lib.state.ma.us/handle/2452/106693
+
+- https://rarebookschool.org/about-rbs/history-of-the-lion/lion-story/
+- https://georgianera.wordpress.com/2015/05/07/gilbert-pidcocks-travelling-menagerie/
+- https://books.google.com/books?id=GDlcAAAAcAAJ&lpg=PA72&ots=hzslTh7EN-&dq=thomas%20bewick%20lion%201819&pg=PA42#v=onepage&q=lion&f=false
+- https://books.google.com/books?id=mkoJAAAAQAAJ&lpg=PR24&ots=dvLs8R6GrD&dq=thomas%20bewick%20a%20lion%201819&pg=PR13#v=onepage&q=thomas%20bewick%20a%20lion%201819&f=false
+-https://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3407664&partId=1&images=true
 
 
 ## TODO
