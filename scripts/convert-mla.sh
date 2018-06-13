@@ -21,6 +21,8 @@ echo "Converting $1 to $name.[docx|html|pdf]..."
 # from the perspective of the site resources (no relation to my dev machine)
 
 # TODO: check against config repo since I have added more pandoc options
+# 6/12/18 "smart" option for em-dashes does NOT work with target outputs
+# figure out best way to insert unicode em-dash in sublime
 
 # Generate the HTML
 pandoc\

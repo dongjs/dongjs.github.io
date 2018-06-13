@@ -1,7 +1,11 @@
 img {
-  width: 70%;
+  width: 75%;
 }
 
+/* different typeface for headers: http://blog.visme.co/pairing-fonts/ */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, Arial, sans-serif;	
+}
 
 /* Exeriment from:
  * http://www.simon-li.com/design-and-code/how-to-set-perfect-line-lengths-for-your-webpages/
