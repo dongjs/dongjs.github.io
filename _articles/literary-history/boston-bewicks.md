@@ -1,5 +1,5 @@
 ---
-title: "Boston Bewicks"
+title: "Boston Bewicks: Concocting Text for Image"
 author: Stephen Krewson
 link-citations: true
 keywords: ["Thomas Bewick", "wood engraving", "Nathaniel Hawthorne", "magazine editing", "visual culture", "popular science"]

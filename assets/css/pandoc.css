@@ -1,5 +1,7 @@
+/* center, not too big */
 img {
-  width: 75%;
+  width: 80%;
+  margin: auto;
 }
 
 /* different typeface for headers: http://blog.visme.co/pairing-fonts/ */
