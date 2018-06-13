@@ -6,24 +6,24 @@ keywords: ["Thomas Bewick", "wood engraving", "Nathaniel Hawthorne", "magazine e
 ---
 
 
-# Introduction
+# A Patron Saint
 
 The dog days of Summer 1835 had rolled around, and with them the twelfth issue of the inagural *American Magazine of Useful Knowledge*, before formal respects were paid to the publisher's namesake. 
 
 > It may be considered as rendering tardy justice to the character of our patron saint, in not having long before this, referred to Thomas Bewick, whose name we have used, not profanely we hope, as a recommendation of our well-intentioned work. (AMUK 1.12.507 [August 1834])
 
-Though Bewick had died seven years previously--at 73 in his native North England--a wood engraving of him in middle age with a shock of dark, curly hair and a bemused look serves as the head-piece to the article. The same block was reused on a poster for what was probably the magazine's second volume (there would only ever be three). The relief portrait of the British master artisan sits at the bottom of the broadsheet, bisected by its vertical axis of symmetry. As can be seen in the American Antiquarian Society's copy, however, "Published Monthly, BY The Boston Bewick Co." has been pasted over with a printed cancel! In its place "Noyes P. Hawes. nos. 18 and 20 Cornhill, Boston, Mass." will bring the magazine forth to an appreciative public.
+Though Bewick had died seven years previously---at 75 in his native North England---a wood engraving of him in middle age with a shock of dark, curly hair and a bemused look serves as the head-piece to the article. The same block reappears on a poster for what was probably the magazine's second volume (there would only ever be three). The relief portrait of the British master artisan sits at the bottom of the broadsheet, bisected by its vertical axis of symmetry. As can be seen in the American Antiquarian Society's copy, however, "Published Monthly, BY The Boston Bewick Co." has been pasted over with a printed cancel. In the company's place, "Noyes P. Hawes. nos. 18 and 20 Cornhill, Boston, Mass." will bring the magazine forth to an appreciative public.
 
 ![Prospectus for *American Magazine of Useful Knowledge*. (Boston : s.n., 1834 or 1835)](img/amer-mag-poster.jpg)
 
-The appararent fungibility of the AMUK's publishing concern is representative of the high turnover in 1830s popular-scientific literature and periodicals. The "growth of knowledge" era had been steaming along for a few decades now and American imitations of the SDUK and the *Juvenile Magazine* were many. Yet the Boston Bewick Co. and its American Magazine merit attention for the way in which they thematized the changes in visual arrangement that were taking place at the level of the book, the magazine, the page. Turning to Bewick and his famous "tale-pieces" was both an antiquarian looking back to an old-Country pastoralism but also a looking forward to a world in which the image saturated knowledge publishing.
+The fungibility of the AMUK's publishing concern is representative of the high turnover in 1830s popular-scientific literature and periodicals. The era of the "growth of knowledge" had been steaming along for a few decades now and American imitations of the SDUK and the *Juvenile Magazine* were many. Yet the Boston Bewick Co. and its American Magazine merit attention for the way in which they thematized the changes in visual arrangement that were taking place at the level of the book, the magazine, the page. Turning to Bewick and his famous "tale-pieces" was both an antiquarian looking back to an old-Country pastoralism but also a looking forward to a world in which the image saturated knowledge publishing.
 
 The editors close their biographical note with a brief critical survey. Bewick's *Quadrupeds* (1799) and other books are fine, but it is his lion that they select as being best.
 
 ![Thomas Bewick. "Large lion" commissioned by Charnley in 1819 for *Works*. (Newcastle: 1822)](img/bewick-1819-lion.jpg)
 
 
-# Next Section
+# Time on Page, *Mise en Page*
 
 This chapter begins with the American reception of Bewick to show how he stood as a symbol of "growth of knowledge" but also as the principle of authorship in a world of plagiarism and concocting and image reuse.
 
@@ -47,10 +47,7 @@ questions AND images became normative in educational children's lit
 
 cf. introduction to 2nd edition of first parley book
 
-
-## Illustration at the turn of the 19C
-
-Plate and diagram to inline image.
+If not in the introduction, give good definitions for Plate and diagram and inline image. Or at least a good bibliographical pointer.
 
 
 ## Notes and Ideas
