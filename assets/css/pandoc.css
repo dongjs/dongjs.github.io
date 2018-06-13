@@ -1,10 +1,12 @@
-/* center, not too big */
+/* Slight tweaks to images: center, not too big */
 img {
   width: 80%;
 }
-
-div.figure {
-    margin: 20px auto;
+#figure {
+    margin: auto 30px;
+}
+#caption {
+    font-size: small;
 }
 
 /* different typeface for headers: http://blog.visme.co/pairing-fonts/ */
