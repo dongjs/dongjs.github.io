@@ -1,7 +1,10 @@
 /* center, not too big */
 img {
   width: 80%;
-  margin: auto;
+}
+
+#figure {
+    margin: auto;
 }
 
 /* different typeface for headers: http://blog.visme.co/pairing-fonts/ */
