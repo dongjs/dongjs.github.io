@@ -3,8 +3,8 @@ img {
   width: 80%;
 }
 
-#figure {
-    margin: auto;
+div.figure {
+    margin: 20px auto;
 }
 
 /* different typeface for headers: http://blog.visme.co/pairing-fonts/ */
