@@ -2,10 +2,10 @@
 img {
   width: 80%;
 }
-#figure {
-    margin: auto 30px;
+.figure {
+    margin: 30px;
 }
-#caption {
+.caption {
     font-size: small;
 }
 
