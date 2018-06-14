@@ -1,5 +1,5 @@
 ---
-title: "Boston Bewicks: Concocting Text for Image"
+title: "Boston Bewicks: Penny Magazines Come to America"
 author: Stephen Krewson
 link-citations: true
 keywords: ["Thomas Bewick", "wood engraving", "Nathaniel Hawthorne", "magazine editing", "visual culture", "popular science"]
@@ -25,6 +25,11 @@ The editors close their biographical note with a brief critical survey. Bewick's
 ### Aside: The Great Moon Hoax
 
 The Bewick article appears the same month that *The Sun* in New York printed the moon hoax. Poe's connection to the hoax via Hans Pfaall and air balloons might be of use here. The belatedness of Boston by this point. Cf. Goodrich's own sense of regionalism, competition between Boston and New York. Parley as transcending regionalism (cf. New Orleans visit). In general, connect more to literary nationalism in Jacksonian period. Moon hoax gets its authority by copying from Edinburgh, from UK.
+
+
+## American Uptake of Penny Magazines
+
+Perhaps the most humorous article of Hawthorne's in the AMUEK is "Fashions of Hats" (August 1836)--not the least because of the 15 small woodcuts that pepper the three columns of text. Hawthorne ends by asking whether men of science, taste, and genius might not "turn their attention" to perfecting the elegance and utility of the hat, thus arriving at a "universal" form of headgear, to be modified only as climate might necessitate. Of course, Hawthorne immediately ironizes this fanciful project: 
 
 
 ## Time on Page, *Mise en Page*
@@ -73,6 +78,10 @@ Most accurate info is at Bewick Society website. It seems that Bewick owned a co
 - https://books.google.com/books?id=GDlcAAAAcAAJ&lpg=PA72&ots=hzslTh7EN-&dq=thomas%20bewick%20lion%201819&pg=PA42#v=onepage&q=lion&f=false
 - https://books.google.com/books?id=mkoJAAAAQAAJ&lpg=PR24&ots=dvLs8R6GrD&dq=thomas%20bewick%20a%20lion%201819&pg=PR13#v=onepage&q=thomas%20bewick%20a%20lion%201819&f=false
 -https://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3407664&partId=1&images=true
+-http://gallica.bnf.fr/ark:/12148/bpt6k6290222f/
+- http://search.ebscohost.com/login.aspx?direct=true&db=h9i&AN=43577607&site=ehost-live&scope=site&kw=true&acc=false&lpId=divl5&ppId=divp66&twPV=null&xOff=0&yOff=0&zm=fit&fs=null&rot=0&docMapOpen=true&pageMapOpen=true
+
+N.B. EBSCO has cool "Document Map" that identifies illustrations. Need to track this down (ask Doug). The Penny Magazine started in 1832 and was stereotyped, appearing at least in American editions in Boston and New York.
 
 
 ## TODO
