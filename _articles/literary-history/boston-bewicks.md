@@ -16,8 +16,13 @@ Facts about
 - Frequency
 - Price
 - Circulation and popularity
+- Marketing of pictures (cf. Chambers' Journal which had none)
 - Origin of phrase "useful *and* entertaining" knowledge
 - Presence or absence of reader mailbags (origin of the same)
+- Vocabularies for editing
+    * Hackwork
+    * Concocting
+    * Blocking
 
 Implicit theories of:
 
@@ -34,6 +39,9 @@ Material evidence for:
 
 - Wood engraving reuse
 - "Viral" passages
+- Boston and Salem libraries
+- Role of Elizabeth Hawthorne
+- Number of "blockers" employed by Goodrich
 
 Context regarding:
 
