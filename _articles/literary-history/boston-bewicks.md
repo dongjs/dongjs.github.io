@@ -6,6 +6,45 @@ keywords: ["Thomas Bewick", "wood engraving", "Nathaniel Hawthorne", "magazine e
 ---
 
 
+## Introduction
+
+This chapter counterposes the magazine-work of Samuel Goodrich and Nathaniel Hawthorne. These two men had very different approaches to textual editing and production. Nevertheless, it was a magazine--the *American Magazine of Useful and Entertaining Knowledge*--that brought them into sustained contact (and conflict) for the first time. Studying Hawthorne's short tenure as editor of the AMUEK in 1836 reveals the contours of a network of "penny" magazine producers in which he and his predecessor Alfred Bradley participated. Copying was bimodal and bidirectional: text *and* image flowed between London, Paris, and the eastern seaboard cities of the United States. In what follows, I undertake a combination of close and distant reading of illustrations. 
+
+Facts about
+
+- Start and end dates
+- Frequency
+- Price
+- Circulation and popularity
+- Origin of phrase "useful *and* entertaining" knowledge
+- Presence or absence of reader mailbags (origin of the same)
+
+Implicit theories of:
+
+- Illustration
+- Affiliating with a particular style (e.g. Bewick)
+- Childhood and education
+- "Universalism"
+- Science
+- Race and culture
+- Political controversy
+- Public sphere
+
+Material evidence for:
+
+- Wood engraving reuse
+- "Viral" passages
+
+Context regarding:
+
+- The existing literature on Hawthorne as editor
+- Victorian visual culture and science
+- Print technology
+- History of capitalism
+
+
+
+
 ## A Patron Saint
 
 The dog days of Summer 1835 had rolled around, and with them the twelfth issue of the inaugural volume of the *American Magazine of Useful Knowledge*, before formal respects were paid to the publisher's namesake:
@@ -78,10 +117,22 @@ Most accurate info is at Bewick Society website. It seems that Bewick owned a co
 - https://books.google.com/books?id=GDlcAAAAcAAJ&lpg=PA72&ots=hzslTh7EN-&dq=thomas%20bewick%20lion%201819&pg=PA42#v=onepage&q=lion&f=false
 - https://books.google.com/books?id=mkoJAAAAQAAJ&lpg=PR24&ots=dvLs8R6GrD&dq=thomas%20bewick%20a%20lion%201819&pg=PR13#v=onepage&q=thomas%20bewick%20a%20lion%201819&f=false
 -https://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=3407664&partId=1&images=true
+
+
 -http://gallica.bnf.fr/ark:/12148/bpt6k6290222f/
+"gravures" indicated with * in the TOC for Magasin Universel
+
+
 - http://search.ebscohost.com/login.aspx?direct=true&db=h9i&AN=43577607&site=ehost-live&scope=site&kw=true&acc=false&lpId=divl5&ppId=divp66&twPV=null&xOff=0&yOff=0&zm=fit&fs=null&rot=0&docMapOpen=true&pageMapOpen=true
+- https://en.wikipedia.org/wiki/Boston_Society_for_the_Diffusion_of_Useful_Knowledge
+- https://jwa.org/encyclopedia/article/foa-eugenie
+
 
 N.B. EBSCO has cool "Document Map" that identifies illustrations. Need to track this down (ask Doug). The Penny Magazine started in 1832 and was stereotyped, appearing at least in American editions in Boston and New York.
+
+Direct copying of Rattlesnake image in AMUEK 2 p. 511 (Hawthorne) [August 1836; this whole issue is interesting because it also has the hats article and a piece on wood engraving; perhaps do a case study?] and Magasin Universel, 10.1 [1853]. Same pattern of 1850s reuse of 1830 material? The afterlife of the 1830s? Michele Martin's analysis fits with the hypothesis that the American and French editions presuppose a British original.
+
+https://babel.hathitrust.org/cgi/pt?id=uiuo.ark:/13960/t3qv4pm6h;view=1up;seq=12
 
 
 ## TODO
