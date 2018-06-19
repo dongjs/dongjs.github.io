@@ -1,5 +1,5 @@
 ---
-title: "The Apparatus and the Cut: Visualizing the Mechanics of 19C Children's Literature"
+title: "The Apparatus and the Cut: Introduction"
 author: Stephen Krewson
 link-citations: true
 keywords: ["children's literature", "history of science", "book history", "education"]
@@ -8,22 +8,20 @@ keywords: ["children's literature", "history of science", "book history", "educa
 
 ## Introduction
 
-This is the 
+This is the story of Samuel Goodrich and Josiah Holbrook, as told through the apparatus and the cut.
 
 
 ## Plan of Chapters
 
-A chapter in my dissertation is a treatment of 
+A chapter in my dissertation is a treatment of either a school apparatus or a set of wood engravings of a particular subject.
 
 
 ## Navigating this Site
 
-The accompanying articles form an annotated bibliography of sorts.
-
-- (Glossary)[http://www.stephenkrewson.net/articles/literary-history/aac-glossary.html] of technical terms
-- Important characters
-- Discussion of datasets and computational methods
-- Publications in my archive
+- [Glossary](http://www.stephenkrewson.net/articles/literary-history/aac-glossary.html) of technical terms
+- Important [characters](http://www.stephenkrewson.net/articles/literary-history/aac-people.html)
+- Discussion of [datasets](http://www.stephenkrewson.net/articles/literary-history/aac-data.html) and computational methods
+- [Publications](http://www.stephenkrewson.net/articles/literary-history/aac-publications.html) in my archive
 - Timeline?
 
 Chapters and journal-length articles will be posted as they are drafted. 
