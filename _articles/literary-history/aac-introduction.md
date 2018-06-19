@@ -2,26 +2,31 @@
 title: "The Apparatus and the Cut: Visualizing the Mechanics of 19C Children's Literature"
 author: Stephen Krewson
 link-citations: true
-keywords: ["Children's Literature", "History of Science", "Book History", "Education"]
+keywords: ["children's literature", "history of science", "book history", "education"]
 ---
 
 
-## Intro
+## Introduction
 
-Placeholder for plaintext build system for dissertation. Here is an example illustration:
-
-![Method of telling about geography (1830).](img/parley-geography.jpg)
-
-And here is an inline footnote.^[Always stick to these. Keep them to one paragraph.] Here is a citation [See @arora_writing_2017, pp. 30-32]. General principles are to use Sublime for the writing since it will be way cleaner. Keep track of dependencies, whether for Pandoc or WSL setup.
-
-Keep styling to separate CSS sheet (for image widths, etc.). Here is a test of a line that should surely overflow. But hopefully it is capped in a nice way.
+This is the 
 
 
-## Context
+## Plan of Chapters
 
-A second section.
+A chapter in my dissertation is a treatment of 
 
 
+## Navigating this Site
+
+The accompanying articles form an annotated bibliography of sorts.
+
+- (Glossary)[http://www.stephenkrewson.net/articles/literary-history/aac-glossary.html] of technical terms
+- Important characters
+- Discussion of datasets and computational methods
+- Publications in my archive
+- Timeline?
+
+Chapters and journal-length articles will be posted as they are drafted. 
 
 
 ## Works Cited
