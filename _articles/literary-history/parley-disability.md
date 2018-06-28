@@ -6,17 +6,20 @@ link-citations: true
 
 ## Note
 
-[Explain context when submitting to small group.]
+*Explain context for small group readers.*
 
 
 ## Introduction
 
-[Already written; revise]
+*Already written; revise and make it fit with outline.*
 
 
 ## Peter Parley
-### Precedents
+
+*This section will cover..*
+
 ### 
+### Hannah More
 
 ### Direct Precedents for Parley
 
