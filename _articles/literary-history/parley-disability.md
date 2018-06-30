@@ -6,15 +6,13 @@ link-citations: true
 
 ## Note
 
-*This is the beginning of a chapter, probably my second. Each chapter in my dissertation tells the story of a key figure within 19C “practical” education. As I work through the relevant primary texts, I pair each figure with a field of study and an object or image. Thus, the preceding chapter tells the story of Josiah Holbrook, creator of the lyceum movement, and of his obsession with manufacturing globes for children and even using children to manufacture globes. This one sketches the prehistory of Samuel Goodrich’s Peter Parley. Our field is “special education” and the image we will focus on is that of Parley himself, as it variously depicts his physical disability. Request for help: I think the biographical sketch of the central figures should come in the introduction. With details fleshed out in the chapters. Or not?*
+*This is the beginning of a chapter, probably my second. Each chapter in my dissertation tells the story of a key figure within early-19C “practical” education. As I work through the primary texts, I engage each figure with a contemporaneous problem within education and an object ("apparatus") or image ("cut") that speaks to that problem. Thus, the preceding chapter (which follows a more theoretical or historiographical introduction) tells the story of Josiah Holbrook, creator of the lyceum movement. Holbrook's obsession with manufacturing globes for children led him to eventually task children with the manufacture of globes. This one sketches the prehistory of Samuel Goodrich’s Peter Parley character. The problematic concerns “special education” and the image we will focus on is that of Parley himself, as it variously depicts his physical disability.*
 
 
 ###############################################################################
 ## Introduction
 
-*Already written; revise and make it fit with outline. This section needs to inform the reader about who Peter Parley was and what archive will be used to animate him.*
-
-The most popular children’s book character in nineteenth-century America, Samuel Griswold Goodrich’s Peter Parley, was birthed by the rise of new forms of geographical education in the 1820s. Illustrated didactic works like William Channing Woodbridge’s *Rudiments of Geography* (1821), the intellectual and visual basis for the first Parley book, *Tales about America* (1826), had in turn been shaped by the encounter between a class of progressive educator-authors and students with disability. Karen Bourrier has brought to light the sheer number of healthy-invalid character dyads in the mid-century novel.[@BourrierMeasureManlinessDisability2015] By strategically collating key texts within the mass of educational editions put out by Goodrich and his circle, we can antetade her finding that Victorian authors innovated a point of view that was focalized through the disabled male body.^[The contrast is with the prevailing 18C tendency to find physical deformity comical.] A quarter-century earlier, we find that the Parley books and periodicals are structured by their narrator’s physical impairments. So much so that young readers even complained at inconsistent representation of those impairments. The appeal of the disabled adult narrator within juvenile literature is evidenced by its adoption by Jacob Abbott (creator of the Rollo series) among other authors. While the disability of these narrators solves the initial plot problem of why a group of children should feel safe in attending to an adult stranger, its currency in the early-19C is more fully understood through an analysis of how Pestalozzian sense education was received in the United States, reworked at institutions such as the Connecticut Asylum for Deaf and Dumb Persons and the Perkins School for the Blind, and contested within an ecosystem of frequently recycled engravings.
+The most popular children’s book character in nineteenth-century America, Samuel Griswold Goodrich’s Peter Parley, was birthed by the rise of new forms of geographical education in the 1820s. Illustrated didactic works like William Channing Woodbridge’s *Rudiments of Geography* (1821), the intellectual and visual basis for the first Parley book, *Tales about America* (1826), had in turn been shaped by the encounter between a class of progressive educator-authors and students with disability. Karen Bourrier has brought to light the sheer number of healthy-invalid character dyads in the mid-century novel. [@BourrierMeasureManlinessDisability2015] By strategically collating key texts within the mass of educational editions put out by Goodrich and his peers, we can antetade Bourrier's finding that Victorian authors innovated a point of view that was focalized through the disabled male body.^[The contrast is with the prevailing 18C tendency to find physical deformity comical.] A quarter-century earlier, we find that the Parley books and periodicals are structured by their narrator’s physical impairments. So much so that young readers even complained at inconsistent representation of those impairments. The appeal of the disabled adult narrator within juvenile literature is evidenced by its adoption by Jacob Abbott (creator of the Rollo series) among other authors. While the disability of these narrators solves the initial plot problem of why a group of children should feel safe in attending to an adult stranger, its currency in the early-19C is more fully understood through an analysis of how Pestalozzian sense education was received in the United States, reworked at institutions such as the Connecticut Asylum for Deaf and Dumb Persons and the Perkins School for the Blind, and contested within a print ecosystem in which there was intense competitive pressure to produce (or recycle) text and image.
 
 Lines of influence between educational theory and media format ran in both directions: the “kinesthetic” mode of education was useful for publishers in the advertisement of illustrated juvenile texts.  At the same time, the saturation of the educational market with generic illustrated “concoctions” meant an impoverishing of the full Pestalozzian program, with its emphasis on outdoor, embodied learning supplemented by graduated apparatus kits. By the mid-1830s, Goodrich and his stand-ins Parley and Robert Merry were soliciting a modified form of perceptual attention: through the absorbed “reading” of whatever woodblocks were at hand, they hoped to construct in print a “circle” of imaginative young interpreters.  The requirements for belonging to this circle were eyesight and enough literacy to write a short letter to the editor. The various incarnations of Peter Parley are a measure of the gap between this virtualized collective perceiving and the situated scientific fieldwork imagined by the practical educationists. To tell Parley’s prehistory is thus to tell his afterlife. The smash-up of idealizing school reform movements with the reality of disability and the allure and limitations of print gave him his animating force and motivated his several resurrections. 
 
@@ -23,23 +21,6 @@ My “method of telling” this story, to use a Goodrich turn of phrase, will be
 
 ###############################################################################
 ## "He ain't Peter Parley"
-
-*This section connects Goodrich's own disability and representational networks with the afterlives of the Parley character and its distributors.*
-
-**Plan**
-
-- [DONE] A trip to the South; footnoting the engravers
-- [Written, work it in] importance of Crusoe
-- The "Parley" name and brand
-- Hannah More and Parley Porter as model; More's interest in Cogswell (166)
-- Back to the material and textual sources
-    * brother CA Goodrich: Columbian scenes (two publictions)
-    * Woodbridge and Alice Cogswell and mental "machinery"
-    * "Advances in Education"
-- Strange case of the missing gout: never explicitly mentioned in the main sources; only in Recollections footnote
-    * In fact, gout explicitly typed in Bible Gazetteer as harming one's relationship with God
-- Connection to discourse of 19C sentimentality and sick children
-- Physical disability, invalids and narrative "validity", mental disability, by accident vs. by birth, etc.
 
 The reason Samuel Goodrich could not possibly be Peter Parley, according to the young boy in Savannah, was that "he hasn't got his foot bound up, and he don't walk with a crutch!" So keen was the boy's dismay that he told his grandfather he wouldn't have "any thing to do with" Goodrich.  [@GoodrichRecollectionslifetimeMen1857, 323] This anecdote features in Letter 50 of the *Recollections*, in which Goodrich tours the South. The trip culminated in a public reception in New Orleans in March of 1846 at which the author and "friend of education" was toasted by the leading lights of the city's lyceum. Domestic travel presented Goodrich, then 52, with first-hand evidence of his character's popularity. Both adults and children welcomed him "under the name of the fictitious hero whom I had made to tell my stories." As the lyceum president put it: "Mr. Goodrich, or, as we all love to call you, Peter Parley..." (324) The lyceum speechifying documented in the letter traffics in the old ideas of character as a way for authors to inculcate good morals and live on after death. But Goodrich hints at a more complex authorial situation when he admits that, at times, he "underwent rather sharp cross-questioning":
 
@@ -116,7 +97,24 @@ The disabled pay attention in different ways. Close reading of Parley's magazine
 - https://www.princeton.edu/~graphicarts/2008/10/index.html Track down Bowen's signature
 - Who signed the "H" in the Parley print?
 
-Make this more of a thesis. Does Crain talk about disability? What about the relation to illness? Cf. the literature on UTC, sentimentality. Also remark on the Continental (French, Prussian, Swiss) roots of both deaf and blind instruction AND progressive instruction writ large. As Samuel Howe puts it [Education of Blind in North American Review], the small(er) market comprised by blind institutions means a lack of impetus for innovation in the creation of apparatus and diagrams. The blind institutions also pioneer the use of students for apparatus creation. 
+Make this more of a thesis. Does Crain talk about disability? What about the relation to illness? Cf. the literature on UTC, sentimentality. Also remark on the Continental (French, Prussian, Swiss) roots of both deaf and blind instruction AND progressive instruction writ large. As Samuel Howe puts it [Education of Blind in North American Review], the small(er) market comprised by blind institutions means a lack of impetus for innovation in the creation of apparatus and diagrams. The blind institutions also pioneer the use of students for apparatus creation.
+
+*This section connects Goodrich's own disability and representational networks with the afterlives of the Parley character and its distributors.*
+
+**Plan**
+
+- [DONE] A trip to the South; footnoting the engravers
+- [Written, work it in] importance of Crusoe
+- The "Parley" name and brand
+- Hannah More and Parley Porter as model; More's interest in Cogswell (166)
+- Back to the material and textual sources
+    * brother CA Goodrich: Columbian scenes (two publictions)
+    * Woodbridge and Alice Cogswell and mental "machinery"
+    * "Advances in Education"
+- Strange case of the missing gout: never explicitly mentioned in the main sources; only in Recollections footnote
+    * In fact, gout explicitly typed in Bible Gazetteer as harming one's relationship with God
+- Connection to discourse of 19C sentimentality and sick children
+- Physical disability, invalids and narrative "validity", mental disability, by accident vs. by birth, etc.
 
 
 ###############################################################################
