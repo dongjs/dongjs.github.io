@@ -6,13 +6,21 @@ link-citations: true
 
 ## Note
 
-*Explain context for small group readers.*
+*This is the beginning of a chapter, probably my second. Each chapter in my dissertation tells the story of a key figure within 19C “practical” education. As I work through the relevant primary texts, I pair each figure with a field of study and an object or image. Thus, the preceding chapter tells the story of Josiah Holbrook, creator of the lyceum movement, and of his obsession with manufacturing globes for children and even using children to manufacture globes. This one sketches the prehistory of Samuel Goodrich’s Peter Parley. Our field is “special education” and the image we will focus on is that of Parley himself, as it variously depicts his physical disability. Request for help: I think the biographical sketch of the central figures should come in the introduction. With details fleshed out in the chapters. Or not?*
 
 
 ###############################################################################
 ## Introduction
 
 *Already written; revise and make it fit with outline. This section needs to inform the reader about who Peter Parley was and what archive will be used to animate him.*
+
+The most popular children’s book character in nineteenth-century America, Samuel Griswold Goodrich’s Peter Parley, was birthed by the rise of new forms of geographical education in the 1820s. Books like William Channing *Woodbridge’s Rudiments of Geography* (1821), the intellectual and visual basis for *Peter Parley’s Tales about America* (1826), were shaped by the encounter between a class of progressive educator-authors and students with disability. The Parley books and periodicals are structured by their narrator’s physical impairments; so much so that young readers even complained at inconsistent representation of those impairments. The cultural appeal of the disabled adult narrator is evidenced by its adoption by Jacob Abbott (creator of the Rollo series) among other authors. While the disability of these narrators solves the initial plot problem of why a group of children should feel safe in attending to an adult stranger, its currency in the antebellum period is more fully understood through an analysis of how Pestalozzian sense education was received in the United States, reworked at institutions such as the Connecticut Asylum for the Education and Instruction of Deaf and Dumb Persons, and contested within a sprawling ecosystem of printed engravings.
+
+Lines of influence between educational theory and media format ran in both directions: the “kinesthetic” mode of education was useful for publishers in the advertisement of illustrated juvenile texts.  At the same time, the saturation of the educational market with generic illustrated “concoctions” meant an impoverishing of the full Pestalozzian program, with its emphasis on outdoor, embodied learning supplemented by graduated apparatus kits. By the mid-1830s, Goodrich and his stand-ins Parley and Robert Merry were soliciting a modified form of perceptual attention: through the absorbed “reading” of whatever woodblocks were at hand, they hoped to construct in print a “circle” of imaginative young interpreters.  The requirements for belonging to this circle were eyesight and enough literacy to write a short letter to the editor. The various incarnations of Peter Parley are a measure of the gap between this virtualized collective perceiving and the situated scientific fieldwork imagined by the practical educationists. To tell Parley’s prehistory is thus to tell his afterlife. The smash-up of idealizing school reform movements with the reality of disability and the allure and limitations of print gave him his animating force and motivated his several resurrections. 
+
+My “method of telling” this story, to use a Goodrich turn of phrase, will be to look closely at the objects and images that the reader is instructed to attend to in texts written by the authors and narrators above. To move beyond my subjects’ explicit theories of perception and collective learning, I will look—sometimes closely, sometimes distantly—at a range of “cuts” through which the implicit knowledge systems and subjecthood norms of Parley’s world become visible. My through-line will be the image of Parley surrounded by children. Goodrich was a practitioner par excellence of reuse, “remodeling”, “projection,” and “blocking”: each time he commissioned or acquired images, he was dipping into a large but finite pool of semantic possibility. Nor was the meaning of a cut fixed from the date of its creation onward; the sanding down of distasteful areas in certain blocks used in *Parley’s Magazine* suggests that the engraver’s burr, compositor’s stick, and editor’s pen were linked in navigating the politics of representation.   Thus we can answer the question: Peter Parley was disabled because his creator was disabled and because the limit cases of deaf and blind children shaped progressive education. Disability was a useful “illustration” of how to deal with adversity. The other kind of “illustration,” the graphic kind, was unevenly suited for the sight disabled. At least in the kind of public, absorbed attention that Parley and his editor-successors want. 
+
+Make this more of a thesis. Does Crain talk about disability? What about the relation to illness? Cf. the literature on UTC, sentimentality. Also remark on the Continental (French, Prussian, Swiss) roots of both deaf and blind instruction AND progressive instruction writ large. As Samuel Howe puts it [Education of Blind in North American Review], the small(er) market comprised by blind institutions means a lack of impetus for innovation in the creation of apparatus and diagrams. The blind institutions also pioneer the use of students for apparatus creation. 
 
 
 ###############################################################################
@@ -55,19 +63,11 @@ Joyce's source for this reference, which comes at the critical juncture where St
 
 > The little book entitled "*Parley's Method of Telling about Geography to Children*," had a picture, drawn by Tisdale, representing Parley sitting in a chair, with his lame foot bound up, and a crutch at his side, while he is saying to the boys around--"Take care, don't touch my gouty toe; if you do, I won't tell you any more stories!" Of this work two millions were sold, and of course Parley and his crutch were pretty generally associated together, in the minds of children. (323-324n.)
 
-###############################################################################
 ![First edition. Boston: S. G. Goodrich, 1827, "HERE I am. My name is Peter Parley. I am an old man. I am very grey and lame. But I have seen a great many things, and had a great many adventures in my time, and I love to talk about them."](img/tales-america-1.png)
-
-![Abel Bowen, engraving of Massachusetts "New State House." Boston: Pub, 1828.](img/bowen-mass-general.jpg)
-
-http://americanhistoricalstaffordshire.com/pottery/printed-designs/sources/state-house-boston
-
-http://americanhistoricalstaffordshire.com/pottery/printed-designs/patterns/state-house-boston-stubbs
 
 ![*Method of Telling about Geography*. First edition. Hartford: H. and F. J. Huntington, 1830. "Take care there! take care boys! if you run against my toes, I'll not tell you another story!" The word "gout" does not appear in this text. Note the original portrait of Parley on the wall! The preface to this text, signed P. P., deals with fictionality and genre. Same cuts are reused as in *Tales about America*. Especially the South America section which goes back to Woodbridge and perhaps Malte-Brun.](img/method-telling-1.jpg)
 
 ![Fifth edition. Boston: Carter and Hendee, 1831. Signed by E[lkanah] Tisdale and F. G. Perkins. "HERE I am! My name is Peter Parley! I am an old man. I am very gray and lame. But I have seen a great many things, and had a great many adventures, and I love to talk about them." The Tisdale engraving also appears in the French edition (1832).](img/tales-america-5-tisdale.png)
-###############################################################################
 
 Disability can be read as addressing this problem by widening the gap between the situation of a tale's telling and the notional context in which it took place. 
 
@@ -88,6 +88,8 @@ If character an effect of visual iconography. Goodrich footnotes the boy's excla
 - Pfliegl, "Parley as Brand"
 - Brewer, Afterlife of Character
 - Russell, Am. Journal on Parley's "avowed reuse"
+- http://americanhistoricalstaffordshire.com/pottery/printed-designs/sources/state-house-boston
+- http://americanhistoricalstaffordshire.com/pottery/printed-designs/patterns/state-house-boston-stubbs
 
 
 
