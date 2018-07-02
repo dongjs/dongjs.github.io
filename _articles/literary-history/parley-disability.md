@@ -127,5 +127,9 @@ Make this more of a thesis. Does Crain talk about disability? What about the rel
 - http://americanhistoricalstaffordshire.com/pottery/printed-designs/patterns/state-house-boston-stubbs
 
 
+Maybe start right away with the "picture to be studied" stuff; connect to later 19C stuff; distinguish the fact that this is NOT high art but rather stuff laying around
+- https://simplycharlottemason.com/store/picture-study-portfolios/
+
+
 ###############################################################################
 ## Works Cited
