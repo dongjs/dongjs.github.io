@@ -1,6 +1,22 @@
 # Signatures
 
-Have processed through 1.346 in AMUEK
+Have processed through 1.346 in AMUEK. Nutall's Ornithology important:
+
+- https://archive.org/details/manualofornithol00nutt
+- https://archive.org/details/littlepresentfor00metc
+
+Best way to do this is to search in the notes field in AAS catalogue. Then exhaust everything for a particular engraver/author.
+
+Need to visit Princeton.
+
+https://www.princeton.edu/~graphicarts/2008/10/index.html
+
+Idea: across four chapters I tell the story of the Holbrook Mfg Co. and the Bewick Company? However, this is really niche. Better to have those be two of the chapters. The core middle ones. And bookend with Edgeworth and Peabody? (or women + illustration?) [maybe consider colorization]
+
+Archives exist for John H. Hall and Hartwell. What if, contra Bleiler, Hall only signed "JH" in texts with other engravers? And just did "H" for books where he was the main contractor?
+
+- http://www.masshist.org/collection-guides/view/fa0194 (Hartwell)
+- 
 
 
 ## Abel Bowen
