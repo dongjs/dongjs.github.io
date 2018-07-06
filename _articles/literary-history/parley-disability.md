@@ -84,6 +84,8 @@ Woodbridge, Gallaudet, Howe.
 The disabled pay attention in different ways. Close reading of Parley's magazine passage. Close reading of the Parley book. How norms for attention changed.
 
 
+
+
 ###############################################################################
 ## TODO
 
