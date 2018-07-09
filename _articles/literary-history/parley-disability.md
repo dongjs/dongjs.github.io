@@ -68,7 +68,11 @@ Woodbridge, Gallaudet, Howe.
 
 
 ###############################################################################
-## Pictures to be Studied
+## Picturing the Attention of the Young
+
+We have seen previously that Object Teaching began, at least in the anecdotes of Hermann Krusi and William Mayo, with a scene of iconoclasm. When challenged by a young scholar that there was a window close at hand, Pestalozzi stopped insisting that the students study the properties of windows by looking at engravings of them.^[See Sarah Anne Carter, Dissertation] Even in those venues most friendly to Pestalozzi and progressive education, this did not mean that pictures dropped out of practical education completely. Rather, they became the *generic* markers of particular subjects, chiefly natural history and geography. This was the standard context for engravings within children's books and periodicals, with the image and text harmonized as much as possible.^[See Pfister, WJT Mitchell. Of course, there were exceptions, reuse, and flubs, like the *Juvenile Rambler* article that misidentifies a Turkish face as being paradigmatically European.] A second outlet for engravings in educational texts was as sites for cultivating attention itself.
+
+- Juv. Rambler shows that engravings only to accompany Geography heading 
 
 "Picture to be Studied" is a short article
 
@@ -83,6 +87,8 @@ The disabled pay attention in different ways. Close reading of Parley's magazine
 - Connection to special education, Warren Burton
 - Comparison to drawing education
 - http://melvilliana.blogspot.com/2017/01/moby-dick-in-western-literary-messenger.html
+http://www.merrycoz.org/jrambler/RVRAMBL.xhtml
+
 
 
 ###############################################################################
