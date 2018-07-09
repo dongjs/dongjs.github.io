@@ -81,9 +81,14 @@ Woodbridge, Gallaudet, Howe.
 ###############################################################################
 ## Disabled Bodies, Enabled Attention?
 
-The disabled pay attention in different ways. Close reading of Parley's magazine passage. Close reading of the Parley book. How norms for attention changed.
+The disabled pay attention in different ways. Close reading of Parley's magazine passage. Close reading of the Parley book. How norms for attention changed. Need to link to question of (in)validity.
 
-
+- Context for "Picture to be Studied"
+    * "distributed authorship"
+- Compare to Caleb's essay, Jennifer Roberts
+- Connection to art education
+- Connection to special education
+- http://melvilliana.blogspot.com/2017/01/moby-dick-in-western-literary-messenger.html
 
 
 ###############################################################################
