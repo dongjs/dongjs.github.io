@@ -15,3 +15,7 @@ Criticism:
 https://digitalcommons.colby.edu/cgi/viewcontent.cgi?article=3279&context=cq
 
 https://mn.gov/mnddc/parallels/four/4c/2.html
+
+https://thegradient.pub/nlp-imagenet/
+
+...make a miscellaneous notes file

@@ -54,21 +54,9 @@ Joyce's source for this reference, which comes at the critical juncture where St
 
 ![Fifth edition. Boston: Carter and Hendee, 1831. Signed by E[lkanah] Tisdale and F. G. Perkins. "HERE I am! My name is Peter Parley! I am an old man. I am very gray and lame. But I have seen a great many things, and had a great many adventures, and I love to talk about them." The Tisdale engraving also appears in the French edition (1832).](img/tales-america-5-tisdale.png)
 
-Returning to the two challenges mounted against Goodrich by the children, Parley's disability can be read as addressing the former by widening the gap between the situation of the tale's telling and the notional context in which it took place. In the next sub-section I discuss Goodrich's prefaces and how he tries to inoculate himself against charges of implausibility by first appealing to a fictional youth as a sailor, but then switching to a looser version of verisimilitude and a relaxed citational practice (he only apologizes for plagiarizing high-status authors like Goldsmith). In short, the disabled are held to a different standard of reliability in the Parley universe. Jacob Abbott's General Howitz character provides a different solution; one in which the picture album and the curio cabinet come to be the guarantor of past experience.
+Returning to the two challenges mounted against Goodrich by the children, Parley's disability can be read as addressing the former by widening the gap between the situation of the tale's telling and the notional context in which it took place. In the next sub-section I discuss Goodrich's prefaces and how he tries to inoculate himself against charges of implausibility by first appealing to a fictional youth as a sailor, but then switching to a looser version of verisimilitude and a relaxed citational practice (he only apologizes for plagiarizing Goldsmith's Geography and a few other texts). In short, the disabled are held to a different standard of reliability in the Parley universe. Jacob Abbott's General Howitz character provides a different solution; one in which the picture album and the curio cabinet come to be the guarantor of past experience.
 
 *...I may as well stop here since I'm carrying on. Thank you for reading!*
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -78,8 +66,13 @@ Returning to the two challenges mounted against Goodrich by the children, Parley
 Woodbridge, Gallaudet, Howe. 
 
 
+
 ###############################################################################
-## Disabled Bodies, Enabled Attention?
+## Pictures to be Studied
+
+"Picture to be Studied" is a short article
+
+
 
 The disabled pay attention in different ways. Close reading of Parley's magazine passage. Close reading of the Parley book. How norms for attention changed. Need to link to question of (in)validity.
 
@@ -87,7 +80,8 @@ The disabled pay attention in different ways. Close reading of Parley's magazine
     * "distributed authorship"
 - Compare to Caleb's essay, Jennifer Roberts
 - Connection to art education
-- Connection to special education
+- Connection to special education, Warren Burton
+- Comparison to drawing education
 - http://melvilliana.blogspot.com/2017/01/moby-dick-in-western-literary-messenger.html
 
 
