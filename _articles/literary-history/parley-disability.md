@@ -1,26 +1,21 @@
 ---
-title: "Was Peter Parley Disabled? Character and Invalidity in Bostonian Knowledge Texts"
+title: "Was Peter Parley Disabled? Part 1: The Geography of Disability"
 author: Stephen Krewson
 link-citations: true
 ---
 
-## Note
-
-*This is the beginning of a chapter, probably my second. Each chapter in my dissertation tells the story of a key figure within early-19C “practical” education. As I work through the primary texts, I engage each figure with a contemporaneous problem within education and an object ("apparatus") or image ("cut") that speaks to that problem. Thus, the preceding chapter (which follows a survey of education historiography in my introduction) tells the story of Josiah Holbrook, creator of the lyceum movement. Holbrook's obsession with manufacturing globes for children led him to eventually task children with the manufacture of globes. This one sketches the prehistory of Samuel Goodrich’s Peter Parley character. The problematic concerns “special education” and the image we will focus on is that of Parley himself, as it variously depicts his physical disability. The excerpt below lacks engagement with the existing scholarship on children's literature and publishing and disability studies. That will be remedied soon. I am trying to be bolder in just stating a hypothesis even if it turns out to be contestable. Rather than sticking with the textual minutiae that I love best. So I will greatly benefit from your help in making those "big claims" less convoluted.*
-
-*
-
-
 ###############################################################################
 ## Introduction
 
-The most popular children’s book character in nineteenth-century America, Samuel Griswold Goodrich’s Peter Parley, sprang to life from recent innovations in geographical education. Illustrated didactic works like William Channing Woodbridge’s *Rudiments of Geography* (1821), the intellectual and visual basis for much of the first Parley book, *Tales about America* (1826), had in turn been shaped by the encounter between a class of progressive educator-authors and students with disability. In 1830s Boston, Goodrich (1793-1860), Woodbridge (1794-1845), and Woodbridge's mentee William Andrus Alcott (1798-1859) conversed in print 
+*To be followed by "Was Peter Parley Disabled? Part 2: Characterizing the Attention of the Young."*
+
+The most popular children’s book character in nineteenth-century America, Samuel Griswold Goodrich’s Peter Parley, sprang to life from ongoing innovations in geographical education. Illustrated readers like William Channing Woodbridge’s *Rudiments of Geography* (1821), the intellectual and visual basis for the first Parley book, *Tales about America* (1826), had in turn been shaped by the encounter between a class of progressive educator-authors and students with disability. In 1830s Boston, Goodrich (1793-1860), Woodbridge (1794-1845), and Woodbridge's mentee William Andrus Alcott (1798-1859) carried out a conversation in print that ranged  
 
 Through reviews, notices, and illustrations, they kept current with goings on at...
 
 How to connect disability with the history of the book? The invalidity of character and the stickiness of disability is one way. 
 
-Separate character+woodcuts+attention
+Separate character+woodcuts+attention+Waren Burton
 from: geography+woodcuts+disability
 
 need: taxonomy of
