@@ -1,5 +1,5 @@
 ---
-title: "Was Peter Parley Disabled?"
+title: "Was Peter Parley Disabled? Character and Invalidity in Bostonian Knowledge Texts"
 author: Stephen Krewson
 link-citations: true
 ---
@@ -14,7 +14,23 @@ link-citations: true
 ###############################################################################
 ## Introduction
 
-The most popular children’s book character in nineteenth-century America, Samuel Griswold Goodrich’s Peter Parley, was birthed by the rise of new forms of geographical education in the 1820s. Illustrated didactic works like William Channing Woodbridge’s *Rudiments of Geography* (1821), the intellectual and visual basis for the first Parley book, *Tales about America* (1826), had in turn been shaped by the encounter between a class of progressive educator-authors and students with disability. Karen Bourrier has brought to light the sheer number of healthy-invalid character dyads in the mid-century novel. [@BourrierMeasureManlinessDisability2015] By strategically collating key texts within the mass of educational editions put out by Goodrich and his peers, we can antetade Bourrier's finding that Victorian authors innovated a point of view that was focalized through the disabled male body.^[The contrast is with the prevailing 18C tendency to find physical deformity comical or allegorical. While Parley does invite humor at his expense, ] A quarter-century earlier, we find that the Parley books and periodicals are structured by their narrator’s physical impairments. So much so that young readers even complained at inconsistent representation of those impairments. The appeal of the disabled adult narrator within juvenile literature is evidenced by its adoption by Jacob Abbott (creator of the Rollo series) among other authors. While the disability of these narrators solves the initial plot problem of why a group of children should feel safe in attending to an adult stranger, its currency in the early-19C is more fully understood through an analysis of how Pestalozzian sense education was received in the United States, reworked at institutions such as the Connecticut Asylum for Deaf and Dumb Persons and the Perkins School for the Blind, and contested within a print ecosystem in which there was intense competitive pressure to produce (or recycle) text and image.^[See @RauchUsefulKnowledgeVictorians2001 for a good entry point to the literature on the "growth of knowledge" and its relation to the print marketplace.]
+The most popular children’s book character in nineteenth-century America, Samuel Griswold Goodrich’s Peter Parley, sprang to life from recent innovations in geographical education. Illustrated didactic works like William Channing Woodbridge’s *Rudiments of Geography* (1821), the intellectual and visual basis for much of the first Parley book, *Tales about America* (1826), had in turn been shaped by the encounter between a class of progressive educator-authors and students with disability. In 1830s Boston, Goodrich (1793-1860), Woodbridge (1794-1845), and Woodbridge's mentee William Andrus Alcott (1798-1859) conversed in print 
+
+Through reviews, notices, and illustrations, they kept current with goings on at...
+
+How to connect disability with the history of the book? The invalidity of character and the stickiness of disability is one way. 
+
+Separate character+woodcuts+attention
+from: geography+woodcuts+disability
+
+https://www.dartmouth.edu/~library/Library_Bulletin/Nov1992/LB-N92-Wait.html
+
+
+Karen Bourrier has brought to light the sheer number of healthy-invalid character dyads in the mid-century novel. [@BourrierMeasureManlinessDisability2015] By strategically collating within the mass of educational editions put out by Goodrich and his peers, we can antetade Bourrier's finding that Victorian authors pioneered a point of view focalized through the disabled male body. A quarter-century earlier, we find that the Parley books and periodicals are structured by their narrator’s physical impairments. So much so that young readers even complained at inconsistent representation of those impairments. 
+
+The appeal of the disabled adult narrator within juvenile literature is evidenced by its adoption by Jacob Abbott (creator of the Rollo series) among other authors. 
+
+While the disability of these narrators solves the initial plot problem of why a group of children should feel safe in attending to an adult stranger, its currency in the early-19C is more fully understood through an analysis of how Pestalozzian sense education was received in the United States, reworked at institutions such as the Connecticut Asylum for Deaf and Dumb Persons and the Perkins School for the Blind, and contested within a print ecosystem in which there was intense competitive pressure to produce (or recycle) text and image.^[See @RauchUsefulKnowledgeVictorians2001 for a good entry point to the literature on the "growth of knowledge" and its relation to the print marketplace.]
 
 Lines of influence between educational theory and media format ran in both directions: the “kinesthetic” mode of education was useful for publishers in the advertisement of illustrated juvenile texts.  At the same time, the saturation of the educational market with generic illustrated “concoctions” meant an impoverishing of the full Pestalozzian program, with its emphasis on outdoor, embodied learning supplemented by graduated apparatus kits. By the mid-1830s, Goodrich and his stand-ins Parley and Robert Merry were soliciting a modified form of perceptual attention: through the absorbed “reading” of whatever woodblocks were at hand, they hoped to construct in print a “circle” of imaginative young interpreters.  The requirements for belonging to this circle were eyesight and enough literacy to write a short letter to the editor. The various incarnations of Peter Parley are a measure of the gap between this virtualized collective perceiving and the situated scientific fieldwork imagined by the practical educationists. To tell Parley’s prehistory is thus to tell his afterlife. The smash-up of idealizing school reform movements with the reality of disability and the allure and limitations of print gave him his animating force and motivated his several resurrections. 
 
