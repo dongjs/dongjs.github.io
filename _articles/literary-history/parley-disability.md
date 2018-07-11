@@ -23,6 +23,14 @@ How to connect disability with the history of the book? The invalidity of charac
 Separate character+woodcuts+attention
 from: geography+woodcuts+disability
 
+need: taxonomy of
+
+sensory disability
+physical impairment
+birth vs. accident
+ideas about this then, disability studies now
+Woodbridge's papers at Manuscripts and Archives
+
 https://www.dartmouth.edu/~library/Library_Bulletin/Nov1992/LB-N92-Wait.html
 
 
