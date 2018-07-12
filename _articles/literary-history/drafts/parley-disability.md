@@ -9,7 +9,7 @@ link-citations: true
 
 *To be followed by "Was Peter Parley Disabled? Part 2: Characterizing the Attention of the Young."*
 
-The most popular children’s book character in nineteenth-century America, Samuel Griswold Goodrich’s Peter Parley, sprang to life from ongoing innovations in geographical education. Illustrated readers like William Channing Woodbridge’s *Rudiments of Geography* (1821), the intellectual and visual basis for the first Parley book, *Tales about America* (1826), had in turn been shaped by the encounter between a class of progressive educator-authors and students with disability. In 1830s Boston, Goodrich (1793-1860), Woodbridge (1794-1845), and Woodbridge's mentee William Andrus Alcott (1798-1859) carried out a conversation in print that ranged  
+The most popular children’s book character in nineteenth-century America, Samuel Griswold Goodrich’s Peter Parley, sprang to life from ongoing innovations in geographical education. Illustrated readers like William Channing Woodbridge’s *Rudiments of Geography* (1821), the intellectual and visual basis for the first Parley book, *Tales about America* (1826), had in turn been shaped by the encounter between a class of progressive educator-authors and students with disability. In 1830s Boston, Goodrich (1793-1860), Woodbridge (1794-1845), and William Andrus Alcott (1798-1859) carried out a conversation in print that ranged 
 
 Through reviews, notices, and illustrations, they kept current with goings on at...
 
