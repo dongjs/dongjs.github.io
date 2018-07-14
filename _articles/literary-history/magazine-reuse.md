@@ -11,6 +11,9 @@ In order of founding date.
 
 ### Juvenile Rambler
 
+- Initialy called Classical Review (see AAS collection on EBSCO)
+    * Not illustrated
+    * Keenly interested in Holbrook and Goodrich
 - Volume 2 I have checked out; not online
 - Masthead verse about the bee is adaptation of Cowper's *The Task*
 
