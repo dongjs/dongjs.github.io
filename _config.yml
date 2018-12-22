@@ -1,6 +1,6 @@
 #: See https://github.com/pages-themes/cayman#usage
 theme: jekyll-theme-cayman
-title: "Jinshuo Dong loves Lin"
+title: "Jinshuo Dong 董金硕"
 description: "Cool Math with Application"
 
 github: metadata
@@ -13,10 +13,10 @@ plugins:
 # https://jekyllrb.com/docs/collections/ (TODO: poems, music?)
 collections:
 
-  articles:
-    layout: article
-    output: true
+  # articles:
+  #   layout: article
+  #   output: true
 
-  poems:
-    layout: poem
-    output: true
+  # poems:
+  #   layout: poem
+  #   output: true
