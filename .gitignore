@@ -4,3 +4,4 @@ _site/
 
 # ignore PDFs
 *.pdf
+Gemfile.lock
