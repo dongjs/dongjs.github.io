@@ -1,0 +1,44 @@
+/* Slight tweaks to images: center, not too big */
+img {
+  width: 80%;
+}
+.figure {
+    margin: 30px;
+}
+.caption {
+    font-size: small;
+}
+
+/* different typeface for headers: http://blog.visme.co/pairing-fonts/ */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, Arial, sans-serif;	
+}
+
+/* Exeriment from:
+ * http://www.simon-li.com/design-and-code/how-to-set-perfect-line-lengths-for-your-webpages/
+*/
+
+body {
+	width: 40em;
+	margin: 0 auto;
+	max-width: 100%;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+/* old values were 320, 16 (upped for iPhone) */
+@media only screen and (max-width: 414px) {
+	body {
+		font-size: 22px;
+	}
+}
+
+
+/* 
+ * One issue is that there is not section head for endnotes; see John
+ * MacFarlane's (Pandoc creator) comment and solution here: 
+ * https://groups.google.com/forum/#!msg/pandoc-discuss/O3Bx7VDPZhY/BSjUjv05CgAJ
+ */
+div.footnotes > ol:before {
+  content: "NOTES"
+}

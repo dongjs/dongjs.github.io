@@ -1,0 +1,39 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Knuth typeface from https://www.checkmyworking.com/cm-web-fonts/ */
+@import url("../fonts/Computer-Modern/Serif/cmun-serif.css");
+@import url("../fonts/Computer-Modern/Bright/cmun-bright.css");
+
+
+.page-header {
+	font-family: "Computer Modern Bright";
+	//color: black;
+	background-color: #0f4d92;
+	/* bit of a hack, since theme has default image */
+	//background-image: url("../img/face.png");
+	//background-size: contain; 
+	/* linear-gradient(to bottom, #3b5998, #3b5998); */
+}
+
+.main-content {
+	font-family: "Computer Modern Serif";
+	/* see: https://lastmover.wordpress.com/2017/01/01/github-pages/ */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000000;//2f4f4f
+	}
+}
+
+/* See :https://www.w3schools.com/howto/howto_css_thumbnail.asp */
+.thumbnail {
+	border: 1px #fff;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+}
+
+.thumbnail:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}

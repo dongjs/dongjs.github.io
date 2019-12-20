@@ -15,11 +15,35 @@
     </script>
     <!-- end of my HEAD additions -->
 
+    <style>
+    /* Style the buttons */
+    .btn {
+      border: none;
+      outline: none;
+      color: black;
+      /*padding: 10px 16px;*/
+      /*background-color: #f1f1f1;*/
+      /*opacity: 0.1;*/
+      cursor: pointer;
+      font-size: 40;
+    }
+
+    /* Style the active class, and buttons on mouse-over */
+    .active, .btn:hover {
+      background-color: #666;
+      opacity: 0.1;
+      color: black;
+    }
+    </style>
+
+    <!-- Add my own button style -->
   </head>
   <body>
     <section class="page-header">
+      <!-- buttons -->
       <!-- Make my name a link back to homepage -->
-      <h1 class="project-name"><a href="{{ site.url }}" class="btn">{{ site.title | default: site.github.repository_name }}</a></h1>
+      <!-- How does it change font size automatically... -->
+      <h1 class="project-name"><a href="{{ site.url }}" class="btn"  style="font-size: 60px;" >{{ site.title | default: site.github.repository_name }}</a></h1>
       <!-- end of modifications to title -->
 
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
@@ -32,10 +56,10 @@
       {% endif %}
 
       <!-- I want some buttons -->
-      <a href="{{ site.baseurl }}/assets/files/CV_Jinshuo_Dong.pdf" class="btn">cv</a>
+      <!-- <a href="{{ site.baseurl }}/assets/files/CV_Jinshuo_Dong.pdf" class="btn" style="font-size: 30px;">cv</a> -->
       <!-- <a href="https://github.com/StephenKrewson/Stephenkrewson.github.io#about" class="btn">github</a> -->
       {% for collection in site.collections %}
-        <a href="{{ site.url}}/{{ collection.label | append: '.html' }}" class="btn">{{ collection.label }}</a>
+        <a href="{{ site.url}}/{{ collection.label | append: '.html' }}" class="btn" style="font-size: 30px;">{{ collection.label }}</a>
       {% endfor %}
       <!-- end of custom buttons -->
 

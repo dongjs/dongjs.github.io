@@ -9,7 +9,7 @@ Since Jekyll and Kramdown do not support citations and image captions, I use Pan
 
 In building the site, I was revisiting my own efforts (circa 2015) but with a better understanding of both web programming as well as templating frameworks. While I was inspired to do this by Chris Olah's blog (and the Distill platform), using Haskell's Stack and Hakyll with the Windows subsystem for Linux (WSL) is not workable yet.
 
-Even installing Ruby and Node on WSL Ubuntu was unexpectedly complex, as `rbenv` and `nvm` either do not work or load extremely slowly (as of Summer 2017). Credit to Microsoft for maintaining a clear [issues tracker](https://github.com/Microsoft/BashOnWindows/issues), however. 
+Even installing Ruby and Node on WSL Ubuntu was unexpectedly complex, as `rbenv` and `nvm` either do not work or load extremely slowly (as of Summer 2017). Credit to Microsoft for maintaining a clear [issues tracker](https://github.com/Microsoft/BashOnWindows/issues), however.
 
 
 System
@@ -64,3 +64,16 @@ Site
 * ~~Abstract poetry into "poems" Jekyll collection~~
 * Style research articles using SASS from gh-pages themes (low priority)
 * ~~Make header button link to first heading of README~~
+
+
+根目录下config.yml控制页面显示标题和哪些button出现
+主页内容在index.html，那里面的标题是现实在浏览器标题栏的标题，不是页面标题
+Layout文件夹里default最重要，下面说，其他文件控制每个button点进去以后显示的内容。
+default
+
+首页会根据config决定button和内容。点了button以后似乎是先在根目录找对应文件，那个文件会直接include includes文件夹里面对应文件。神奇的是_config.yml里，根目录文件名，includes文件名这三个必须都一样。当然如果要显示文章列表，文件夹名字和site.是怎么对应的？
+
+layout文件夹里的文件定义相应类型文章的样式。
+
+文件夹_site是自动生成的网站代码
+董金硕

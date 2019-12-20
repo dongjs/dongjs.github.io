@@ -11,10 +11,12 @@
 .page-header {
 	font-family: "Computer Modern Bright";
 	//color: black;
-	background-color: #0f4d92;
+	// background-color: #0f4d92;
 	/* bit of a hack, since theme has default image */
-	//background-image: url("../img/face.png");
-	//background-size: contain; 
+	background-image: url("../img/snow.jpg");
+	// background-size: no-repeat;
+	background-position: center;
+  background-size: 1920px 1280px;
 	/* linear-gradient(to bottom, #3b5998, #3b5998); */
 }
 
@@ -22,7 +24,7 @@
 	font-family: "Computer Modern Serif";
 	/* see: https://lastmover.wordpress.com/2017/01/01/github-pages/ */
 	h1,h2,h3,h4,h5,h6 {
-		color: #000000;//2f4f4f
+		color: black;//2f4f4f
 	}
 }
 
