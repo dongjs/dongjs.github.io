@@ -3,7 +3,6 @@ theme: jekyll-theme-cayman
 title: "Jinshuo Dong"
 # color: black
 description: ""
-
 github: metadata
 markdown: kramdown
 
@@ -13,3 +12,19 @@ plugins:
 
 # https://jekyllrb.com/docs/collections/ (TODO: poems, music?)
 collections:
+
+  posts:
+    layout: article
+    output: true
+
+  # about:
+  #   layout: article
+  #   output: true
+
+  # articles:
+  #   layout: article
+  #   output: true
+
+  # poems:
+  #   layout: poem
+  #   output: true
