@@ -2,6 +2,7 @@
 layout: default
 comments: true
 ---
+<span><a href="{{ site.url }}">Jinshuo's Blog</a></span>
 
 <h1>{{ page.title }}</h1>
 <!-- <h1>{{ page.subtitle }}</h1> -->
@@ -10,7 +11,9 @@ comments: true
   <script language="JavaScript">document.write("Updated " + document.lastModified)</script>
 </p>
 
+
 {{ content }}
+
 
 <p class="meta">{{ page.date | date_to_string }}</p>
 
