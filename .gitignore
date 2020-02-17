@@ -5,3 +5,5 @@ _site/
 # ignore PDFs
 *.pdf
 Gemfile.lock
+
+2020-2-14-fool.md
