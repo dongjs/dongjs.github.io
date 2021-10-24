@@ -3,7 +3,7 @@ author:
 - Jinshuo Dong
 bibliography:
 - 'mybib.bib'
-title: "Exponential Mechanisms - What's Wrong with Sensitivity?"
+title: "Amplification by subsampling"
 ...
 ---
 
