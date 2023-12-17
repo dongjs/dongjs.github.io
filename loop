@@ -1,0 +1,8 @@
+
+{% for collection in site.collections %}
+
+	{% assign name = collection.label | append: '.html' %}
+
+	{% include {{ name }} %}
+
+{% endfor %}

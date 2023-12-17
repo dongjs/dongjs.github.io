@@ -1,6 +1,6 @@
 #: See https://github.com/pages-themes/cayman#usage
 theme: jekyll-theme-cayman
-title: "Jinshuo Dong"
+title: "Jinshuo Dong" 
 # color: black
 description: ""
 github: metadata
@@ -17,14 +17,19 @@ collections:
     layout: article
     output: true
 
+  articles:
+    layout: article
+    output: true
+
+  poems:
+
+  games:
+    layout: article
+    output: true
   # about:
   #   layout: article
   #   output: true
 
-  # articles:
-  #   layout: article
-  #   output: true
-
-  # poems:
-  #   layout: poem
-  #   output: true
+# layout here doesn't really matter. Specify layout at the beginning of every post
+# output: true I also don't know what it is
+# I don't know how to do the order...

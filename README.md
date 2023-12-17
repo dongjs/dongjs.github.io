@@ -66,9 +66,27 @@ Site
 * ~~Make header button link to first heading of README~~
 
 
-根目录下config.yml控制页面显示标题和哪些button出现
+
+The logic:
+- index.html: top goes to layout folder, then for loop finds config.yml. Each item in config.yml shows up as a section. The for loop
+
+
+
+IMPORTANT: don't rely on commenting out. It's hard to tell when it works and when it doesn't.
+
+<!-- 根目录下config.yml控制页面显示标题和哪些button出现
 主页内容在index.html，那里面的标题是现实在浏览器标题栏的标题，不是页面标题
 Layout文件夹里default最重要，下面说，其他文件控制每个button点进去以后显示的内容。
 default
 
-首页会根据config决定button和内容。点了button以后似乎是先在根目录找对应文件，那个文件会直接添进includes里面对应文件。神奇的是_config.yml里，根目录文件名，includes文件名这三个必须都一样。当然如果要显示文章列表，文件夹名字和site.是怎么对应的？
+首页会根据config决定button和内容。点了button以后似乎是先在根目录找对应文件，那个文件会直接添进includes里面对应文件。神奇的是_config.yml里，根目录文件名，includes文件名这三个必须都一样。当然如果要显示文章列表，文件夹名字和site.是怎么对应的？ -->
+
+
+# layout here doesn't really matter. Specify layout at the beginning of every post
+# output: true I also don't know what it is
+# I don't know how to do the order...
+# When working locally, if something unexpected happens, delete the site folder and restart the server
+
+config.yml defines the namespace...
+
+markdown layout must match one html file in layouts folder. html in layouts folder can be based on other html in layouts folder. For example post.html = layout: computermodern (which is basically just font) + link back to home "Jinshuo's Blog" Similar for poem.html

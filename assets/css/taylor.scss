@@ -1,0 +1,40 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
+
+
+.page-header {
+	font-family: 'IM Fell DW Pica', serif;
+	//color: black;
+	// background-color: #0f4d92;
+	/* bit of a hack, since theme has default image */
+	background-image: url("../img/snow.jpg");
+	// background-size: no-repeat;
+	background-position: center;
+  	background-size: 1920px 1280px;
+	/* linear-gradient(to bottom, #3b5998, #3b5998); */
+	display: none;
+}
+
+.main-content {
+	font-family: 'IM Fell DW Pica', serif;
+	/* see: https://lastmover.wordpress.com/2017/01/01/github-pages/ */
+	h1,h2,h3,h4,h5,h6 {
+		color: black;//2f4f4f
+	}
+}
+
+/* See :https://www.w3schools.com/howto/howto_css_thumbnail.asp */
+.thumbnail {
+	border: 1px #fff;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+}
+
+.thumbnail:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}

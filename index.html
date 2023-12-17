@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: computermodern
 title: Blog
 ---
 
@@ -22,21 +22,51 @@ title: Blog
  -->
 <!-- factored out all the collections to _includes -->
 
+<!-- <h1 style="text-align: center;">Blog of Jinshuo Dong</h1> -->
 
-{% for collection in site.collections %}
-<!-- site.collections seems to be defined in _config.yml -->
 
-	{% assign name = collection.label | append: '.html' %}
 
-	{% include {{ name }} %}
-
+<h2>Posts</h2>
+<!-- Displayed text -->
+<ul>
+{% for post in site.posts %}
+<!-- folder name -->
+	<li>
+		<a href="{{ post.url }}">{{ post.title }}</a>
+		({{ post.date | date_to_string}})
+	</li>
 {% endfor %}
+</ul>
 
-<h3>About me</h3>
-<p>My name is Jinshuo Dong. I'm a PhD student in applied math (<a href="https://www.amcs.upenn.edu/">AMCS</a>) at the University of Pennsylvania, with the great fortune to be advised by <a href="https://www.cis.upenn.edu/~aaroth/">Aaron Roth</a>. Currently the main focus of my work is on differential privacy and its role in statistics and machine learning. I'm also generally interested in expanding my (hopefully in the future non-)negligible knowledge in the mathematics of information and computation.
+<!-- <h2>Hobby and Personal</h2>
+<ul>
+{% for article in site.games %}
+	<li>
+		<a href="{{ article.url }}">{{ article.title }}</a>
+		({{ article.date | date_to_string}})
+	</li>
+{% endfor %}
+</ul> -->
+<!-- 
+<p>I am a PhD student in Applied Math (AMCS) at the University of Pennsylvania, with the great fortune to be advised by Aaron Roth. Currently the main focus of my work is on differential privacy and its role in statistics and machine learning. I'm also generally interested in expanding my (hopefully in the future non-)negligible knowledge in the mathematics of information and computation.
 </p>
 
-<p>Feel free to write me at firstname@sas.upenn.edu. For publication and more information, see my <a href="https://www.math.upenn.edu/~jinshuo/">homepage</a>.</p>
+<p>Feel free to write me at firstname@sas.upenn.edu. This is what I look like.</p>
+ -->
+<!-- See https://www.w3schools.com/howto/howto_css_thumbnail.asp -->
+<!-- <a target= "_blank" href="assets/img/Carl_Friedrich_Gauß_signature.svg">
+	<img class="thumbnail" src="assets/img/Carl_Friedrich_Gauß_signature.svg" alt="Stephen Krewson CS50 Staff Photo (2016)">
+</a>
+ -->
+
+
+<h3>About me</h3>
+<p style="font-size: small;">My name is Jinshuo Dong. I'm a postdoc at Northwestern University. I did my PhD in applied math (<a href="https://www.amcs.upenn.edu/">AMCS</a>) at the University of Pennsylvania, advised by <a href="https://www.cis.upenn.edu/~aaroth/">Aaron Roth</a>. I like to thinking about the science and mathematics (sometimes remotely) related to computers. In my spare time, I enjoy watching football, listening to podcasts on its historical and cultural side, taking (often [https://store.steampowered.com/app/270880/American_Truck_Simulator/ virtual]) road trips and listening to Taylor Swift.
+</p>
+
+<p style="font-size: small;">Feel free to write me at firstname@northwestern.edu. For publication and more information, see my <a href="https://www.math.upenn.edu/~jinshuo/">homepage</a>.</p>
+
+
 
 <!-- See https://www.w3schools.com/howto/howto_css_thumbnail.asp -->
 <!-- <a target= "_blank" href="assets/img/me.jpg">
