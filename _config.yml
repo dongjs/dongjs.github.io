@@ -26,6 +26,9 @@ collections:
   games:
     layout: article
     output: true
+  hidden:
+    layout: article
+    output: true
   # about:
   #   layout: article
   #   output: true
